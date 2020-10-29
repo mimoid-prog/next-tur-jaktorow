@@ -1,0 +1,41 @@
+.btns {
+  margin: 12px 0;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  border-radius: 3px;
+  padding: 6px 16px;
+  text-decoration: none;
+
+  svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+  }
+
+  p {
+    color: white;
+    font-weight: 700;
+    font-family: "Jost";
+  }
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.facebook:hover {
+  background-color: #365391;
+}
+
+.phone {
+  background-color: #292929;
+  margin-top: 10px;
+}
+
+.phone:hover {
+  background-color: #1f1f1f;
+}

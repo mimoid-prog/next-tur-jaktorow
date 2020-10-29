@@ -1,0 +1,135 @@
+.title {
+  .titleItem {
+    font-weight: 400;
+    display: block;
+  }
+
+  .titleItem:first-child {
+    font-weight: 700;
+  }
+
+  .date,
+  .time {
+    display: initial;
+  }
+}
+
+@media (min-width: 360px) {
+  .title {
+    .home {
+      display: initial;
+    }
+  }
+}
+
+.match {
+  .matchContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .logoBox {
+    margin: 0 auto;
+    width: 60px;
+  }
+
+  .score {
+    width: 40%;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .soon {
+    font-size: 28px;
+  }
+
+  .teamNames {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.1;
+
+    span {
+      display: block;
+    }
+  }
+}
+
+@media (min-width: 640px) {
+  .match {
+    .score {
+      font-size: 54px;
+    }
+
+    .soon {
+      font-size: 34px;
+    }
+
+    .teamNames {
+      font-size: 18px;
+
+      span {
+        display: initial;
+      }
+    }
+
+    .logoBox {
+      width: 100px;
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .match {
+    .teamNames {
+      span {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .match {
+    .teamNames {
+      span {
+        display: initial;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .match {
+    .score {
+      font-size: 54px;
+    }
+
+    .soon {
+      font-size: 32px;
+    }
+
+    .logoBox {
+      width: 80px;
+    }
+
+    .teamNames {
+      span {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .match {
+    .teamNames {
+      span {
+        display: initial;
+      }
+    }
+  }
+}

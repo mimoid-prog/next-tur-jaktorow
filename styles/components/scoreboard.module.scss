@@ -1,0 +1,53 @@
+.scoreboard {
+  overflow-x: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tr {
+  border-bottom: 1px solid gray;
+  font-size: 16px;
+
+  &:last-child {
+    border: none;
+  }
+
+  th,
+  td {
+    text-align: left;
+    white-space: nowrap;
+    padding: 4px 8px;
+  }
+}
+
+.logoBox {
+  width: 24px;
+  margin-right: 6px;
+}
+
+.club {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  .tr {
+    font-size: 18px;
+  }
+
+  .logoBox {
+    width: 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .scoreboard {
+    grid-column: 1 / 4;
+    grid-row: 2 / 5;
+    background: white;
+    overflow-x: auto;
+  }
+}

@@ -1,0 +1,46 @@
+.information {
+  width: 100%;
+}
+
+.content {
+  background: white;
+  padding: 20px;
+
+  p {
+    margin-top: 3px;
+  }
+
+  a {
+    color: black;
+  }
+
+  .infoHeading {
+    font-weight: 700;
+    margin-top: 6px;
+  }
+
+  .email {
+    background: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .copyright {
+    margin-top: 30px;
+    font-weight: 700;
+  }
+
+  .changesText {
+    margin-top: 18px;
+  }
+
+  .myPage {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content {
+    padding: 30px;
+  }
+}

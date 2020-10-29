@@ -1,0 +1,26 @@
+.home {
+  max-width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 12px 0;
+}
+
+@media (min-width: 1440px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-gap: 20px;
+  }
+
+  .gridLastMatch {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .gridNextMatch {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+  }
+}
