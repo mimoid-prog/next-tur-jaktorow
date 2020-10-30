@@ -27,11 +27,11 @@ const getMatches = (selected: string) => {
   }
 
   let turMatchOne = schedule[weekOne].matches.filter(
-    (match) => match.teamOne === 0 || match.teamTwo === 0,
+    (match) => match.teamOne === 0 || match.teamTwo === 0
   )[0];
 
   let turMatchTwo = schedule[weekTwo].matches.filter(
-    (match) => match.teamOne === 0 || match.teamTwo === 0,
+    (match) => match.teamOne === 0 || match.teamTwo === 0
   )[0];
 
   if (turMatchOne.teamOne === null || turMatchOne.teamTwo === null) {
@@ -39,17 +39,17 @@ const getMatches = (selected: string) => {
     weekTwo += 1;
 
     turMatchOne = schedule[weekOne].matches.filter(
-      (match) => match.teamOne === 0 || match.teamTwo === 0,
+      (match) => match.teamOne === 0 || match.teamTwo === 0
     )[0];
 
     turMatchTwo = schedule[weekTwo].matches.filter(
-      (match) => match.teamOne === 0 || match.teamTwo === 0,
+      (match) => match.teamOne === 0 || match.teamTwo === 0
     )[0];
   } else if (turMatchTwo.teamOne === null || turMatchTwo.teamTwo === null) {
     weekTwo += 1;
 
     turMatchTwo = schedule[weekTwo].matches.filter(
-      (match) => match.teamOne === 0 || match.teamTwo === 0,
+      (match) => match.teamOne === 0 || match.teamTwo === 0
     )[0];
   }
 
@@ -108,12 +108,23 @@ const getMatches = (selected: string) => {
   } else {
     titleOne = `Przedostatni mecz sezonu`;
     titleTwo = `Ostatni mecz sezonu`;
-    scoreOne = `${info[turMatchOne.teamOne].scoredGoals[weekOne]} :
+    if (!info[turMatchOne.teamOne].scoredGoals[weekOne]) {
+      scoreOne = "-";
+    } else {
+      scoreOne = `${info[turMatchOne.teamOne].scoredGoals[weekOne]} :
       ${info[turMatchOne.teamTwo].scoredGoals[weekOne]}`;
-    scoreTwo = `${info[turMatchTwo.teamOne].scoredGoals[weekTwo]} :
+    }
+
+    if (currentWeek === schedule.length - 1) {
+      scoreTwo = "wkrótce";
+      isTextTwo = true;
+    } else {
+      scoreTwo = `${info[turMatchTwo.teamOne].scoredGoals[weekTwo]} :
       ${info[turMatchTwo.teamTwo].scoredGoals[weekTwo]}`;
+      isTextTwo = false;
+    }
+
     isTextOne = false;
-    isTextTwo = false;
   }
 
   if (turMatchOne.canceled) {

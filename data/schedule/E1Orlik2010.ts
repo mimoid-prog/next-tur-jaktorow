@@ -234,9 +234,9 @@ export default [
         teamTwo: 1,
       },
       {
-        date: "07.11.2020",
-        time: "",
-        home: null,
+        date: "08.11.2020",
+        time: "14:00",
+        home: false,
         teamOne: 2,
         teamTwo: 0,
       },

@@ -3,43 +3,43 @@ export default [
     {
       club: "LKS Tur Jaktorów",
       logo: "tur.jpg",
-      stats: [3, 1, 0],
-      scoredGoals: [7,10,9,7],
-      lostGoals: [4,2,9,6],
+      stats: [4, 1, 3],
+      scoredGoals: [7,10,9,7,6,3,8,9],
+      lostGoals: [4,2,9,6,13,10,5,8],
     },
     {
       club: "Unia II Boryszew",
       logo: "unia-boryszew.jpg",
-      stats: [0, 0, 1],
-      scoredGoals: [false,2],
-      lostGoals: [false,10]
+      stats: [2, 0, 5],
+      scoredGoals: [4,2,4,11,4,false,5,9],
+      lostGoals: [12,10,6,2,6,false,8,8]
     },
     {
       club: "PKS Legion Pruszków",
       logo: "legion-pruszkow.jpg",
-      stats: [0, 0, 2],
-      scoredGoals: [false,5,false,6],
-      lostGoals: [false,8,false,7]
+      stats: [1, 0, 4],
+      scoredGoals: [false,5,6,6,2,4,false,8],
+      lostGoals: [false,8,4,7,6,5,false,9]
     },
     {
       club: "KS Błonianka II",
       logo: "blonianka.jpg",
-      stats: [0, 0, 2],
-      scoredGoals: [false,5,6],
-      lostGoals: [false,10,7]
+      stats: [2, 0, 4],
+      scoredGoals: [false,5,6,2,13,5,6,false],
+      lostGoals: [false,10,7,11,6,4,12,false]
     },
     {
       club: "GLKS Relax Radziwiłłów",
       logo: "relax-radziwillow.jpg",
-      stats: [1, 0, 1],
-      scoredGoals: [4,false,7],
-      lostGoals: [7,false,6]
+      stats: [4, 0, 2],
+      scoredGoals: [4,8,7,5,6,10,false,false],
+      lostGoals: [7,5,6,7,4,3,false,false]
     },
     {
       club: "AP Żyrardowianka",
       logo: "zyrardowianka-akademia.jpg",
-      stats: [1, 0, 1],
-      scoredGoals: [false,10,9],
-      lostGoals: [false,5,9]
+      stats: [5, 1, 1],
+      scoredGoals: [12,10,9,7,6,false,12,8],
+      lostGoals: [4,5,9,5,2,false,6,9]
     },
   ];

@@ -465,7 +465,7 @@ export default [
         home: null,
         teamOne: 6,
         teamTwo: null,
-        canceled: false,
+        canceled: true,
       },
       {
         date: "07.11.2020",
