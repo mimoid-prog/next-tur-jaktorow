@@ -108,7 +108,7 @@ const getMatches = (selected: string) => {
   } else {
     titleOne = `Przedostatni mecz sezonu`;
     titleTwo = `Ostatni mecz sezonu`;
-    if (!info[turMatchOne.teamOne].scoredGoals[weekOne]) {
+    if (info[turMatchOne.teamOne].scoredGoals[weekOne] === false) {
       scoreOne = "-";
     } else {
       scoreOne = `${info[turMatchOne.teamOne].scoredGoals[weekOne]} :
@@ -118,6 +118,8 @@ const getMatches = (selected: string) => {
     if (currentWeek === schedule.length - 1) {
       scoreTwo = "wkrótce";
       isTextTwo = true;
+    } else if (info[turMatchTwo.teamOne].scoredGoals[weekTwo] === false) {
+      scoreTwo = "-";
     } else {
       scoreTwo = `${info[turMatchTwo.teamOne].scoredGoals[weekTwo]} :
       ${info[turMatchTwo.teamTwo].scoredGoals[weekTwo]}`;

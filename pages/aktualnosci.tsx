@@ -50,7 +50,9 @@ export const getServerSideProps: GetServerSideProps = async () => {
       "https://www.facebook.com/lksturjaktorow/posts/" + item.id.split("_")[1]
   }));
 
-  const filtered = mapped.filter((item) => item.message !== "");
+  const filtered = mapped.filter(
+    (item) => item.message !== "" && item.day !== "10.11.2020"
+  );
 
   return {
     props: {
