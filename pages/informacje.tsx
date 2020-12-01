@@ -20,10 +20,8 @@ const Information = () => {
           </p>
           <Buttons />
           <p className={styles.changesText}>
-            Masz jakieś uwagi/spostrzeżenia dotyczące strony lub pomysł co można
-            ulepszyć/poprawić?
+            Kontakt odnośnie strony internetowej:
           </p>
-          <p>Chcesz się o coś zapytać lub skontaktować w ramach współpracy?</p>
           <p className={styles.infoHeading}>📧 Wyślij mail:</p>
           <p className={styles.email}>mateusz.szkop99@gmail.com</p>
           <p className={styles.infoHeading}>🖼️ Strona internetowa:</p>
