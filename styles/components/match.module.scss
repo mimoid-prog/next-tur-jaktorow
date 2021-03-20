@@ -1,3 +1,7 @@
+.root {
+  height: 100%;
+}
+
 .title {
   .titleItem {
     font-weight: 400;
@@ -14,11 +18,13 @@
   }
 }
 
-@media (min-width: 360px) {
-  .title {
-    .home {
-      display: initial;
-    }
+.pause {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+
+  span {
+    display: block;
   }
 }
 
@@ -28,6 +34,11 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    text-align: center;
+  }
+
+  .pausedMatchContent {
+    flex-direction: column;
   }
 
   .logoBox {
@@ -54,6 +65,14 @@
 
     span {
       display: block;
+    }
+  }
+}
+
+@media (min-width: 360px) {
+  .title {
+    .home {
+      display: initial;
     }
   }
 }

@@ -2,17 +2,19 @@ import React from "react";
 import Layout from "layouts";
 import styles from "styles/pages/schedule.module.scss";
 import SelectBox from "components/SelectBox";
-import infoAll from "data/info";
 import scheduleAll from "data/schedule";
 import { ItemContent, ItemHeader } from "components/Item";
 import Image from "next/image";
 import Head from "components/Head";
+import { useRouter } from "next/router";
 
 const Schedule = () => {
-  const [value, setValue] = React.useState("senior");
-
-  const info = infoAll[value];
-  const schedule = scheduleAll[value];
+  const router = useRouter();
+  const { division } = router.query;
+  const schedule =
+    typeof division === "string"
+      ? scheduleAll[division]
+      : scheduleAll["senior"];
 
   return (
     <Layout>
@@ -22,71 +24,133 @@ const Schedule = () => {
       />
       <div className={styles.schedule}>
         <h2 className="secondaryTitle viewTitle">Terminarz</h2>
-        <SelectBox
-          value={value}
-          handleChange={(val: string) => setValue(val)}
-        />
+        <SelectBox />
         <div className={styles.content}>
           {schedule.map((week) => (
             <div key={week.date} className={styles.weekBox}>
               <ItemHeader>
-                Kolejka {week.week + 1} - {week.date}
+                Kolejka {week.week}, {week.date}
               </ItemHeader>
               <ItemContent>
-                <ul>
+                <ul className={styles.matchesList}>
                   {week.matches.map((match) => (
                     <li key={match.teamOne}>
-                      <div className={styles.logoBoxLeft}>
-                        {match.teamTwo !== null && (
-                          <Image
-                            src={`/images/logos/${info[match.teamOne].logo}`}
-                            alt={`${info[match.teamOne].club} logotyp`}
-                            width={36}
-                            height={36}
-                            key={info[match.teamOne].logo}
-                          />
-                        )}
-                      </div>
-                      {match.teamTwo !== null ? (
-                        <p
-                          className={`${
-                            match.teamOne === 0 || match.teamTwo === 0
-                              ? styles.tur
-                              : ""
-                          }`}
-                        >
-                          <span>{info[match.teamOne].club}</span>
-                          <span className={styles.score}>
-                            {info[match.teamOne].scoredGoals[week.week] !==
-                            false ? (
-                              <>
-                                {info[match.teamOne].scoredGoals[week.week]}
-                                {" - "}
-                                {info[match.teamTwo].scoredGoals[week.week]}
-                              </>
-                            ) : (
-                              "-"
-                            )}
-                          </span>
-                          <span>{info[match.teamTwo].club}</span>
-                        </p>
+                      {match.paused ? (
+                        <div className={styles.pausedItem}>
+                          <div className={styles.pausedLogoBox}>
+                            <Image
+                              src={`/images/logos/${match.pausedLogo}`}
+                              alt={`${match.pausedTeam} logotyp`}
+                              width={36}
+                              height={36}
+                            />
+                          </div>
+
+                          <div className={styles.pausedTextBox}>
+                            <p>
+                              {match.pausedTeam} <span>pauzuje w kolejce</span>
+                            </p>
+                          </div>
+                        </div>
                       ) : (
-                        <p className={styles.weekPause}>
-                          <span>{info[match.teamOne].club}</span>
-                          <span> pauzuje w kolejce</span>
-                        </p>
-                      )}
-                      {match.teamTwo !== null && (
-                        <div className={styles.logoBoxRight}>
-                          <Image
-                            src={`/images/logos/${info[match.teamTwo].logo}`}
-                            alt={`${info[match.teamTwo].club} logotyp`}
-                            width={36}
-                            height={36}
-                            key={info[match.teamTwo].logo}
-                          />
+                        <div className={styles.matchItem}>
+                          <div className={styles.leftLogoBox}>
+                            <Image
+                              src={`/images/logos/${match.logoOne}`}
+                              alt={`${match.teamOne} logotyp`}
+                              width={36}
+                              height={36}
+                            />
+                          </div>
+                          <div className={styles.scoreBox}>
+                            <div>
+                              <p>{match.teamOne}</p>
+                            </div>
+
+                            <div>
+                              <p className={styles.score}>
+                                {match.scoreOne ? (
+                                  <>
+                                    {match.scoreOne}
+                                    {" - "}
+                                    {match.scoreTwo}
+                                  </>
+                                ) : (
+                                  "-"
+                                )}
+                              </p>
+                            </div>
+                            <div>
+                              <p>{match.teamTwo}</p>
+                            </div>
+                          </div>
+                          <div className={styles.rightLogoBox}>
+                            <Image
+                              src={`/images/logos/${match.logoTwo}`}
+                              alt={`${match.teamTwo} logotyp`}
+                              width={36}
+                              height={36}
+                            />
+                          </div>
                         </div>
                       )}
+
+                      {/* {match.paused ? (
+                        <>
+                          <div className={styles.logoBoxLeft}>
+                            <Image
+                              src={`/images/logos/${match.pausedLogo}`}
+                              alt={`${match.teamOne} logotyp`}
+                              width={36}
+                              height={36}
+                              key={match.logoOne}
+                            />
+                          </div>
+
+                          <p>
+                            <span>{match.pausedTeam}</span>
+                            <span> pauzuje w kolejce</span>
+                          </p>
+                        </>
+                      ) : (
+                        <>
+                          <div className={styles.logoBoxLeft}>
+                            {match.teamTwo !== null && (
+                              <Image
+                                src={`/images/logos/${match.logoOne}`}
+                                alt={`${match.teamOne} logotyp`}
+                                width={36}
+                                height={36}
+                                key={match.logoOne}
+                              />
+                            )}
+                          </div>
+                          <p>
+                            <span>{match.teamOne}</span>
+                            <span className={styles.score}>
+                              {match.scoreOne ? (
+                                <>
+                                  {match.scoreOne}
+                                  {" - "}
+                                  {match.scoreTwo}
+                                </>
+                              ) : (
+                                "-"
+                              )}
+                            </span>
+                            <span>{match.teamTwo}</span>
+                          </p>
+                          <div className={styles.logoBoxRight}>
+                            <Image
+                              src={`/images/logos/${match.logoTwo}`}
+                              alt={`${match.teamTwo} logotyp`}
+                              width={36}
+                              height={36}
+                              key={match.logoTwo}
+                            />
+                          </div>
+                        </>
+                      )} */}
                     </li>
                   ))}
                 </ul>

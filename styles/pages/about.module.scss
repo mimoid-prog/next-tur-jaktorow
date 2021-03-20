@@ -10,6 +10,13 @@
   align-items: center;
 }
 
+.photoBox {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  margin-top: 20px;
+}
+
 .info {
   margin: 30px auto 0;
 
@@ -35,11 +42,6 @@
   a {
     color: black;
   }
-}
-
-.photo {
-  margin-top: 20px;
-  max-width: 100%;
 }
 
 .source {
@@ -69,8 +71,9 @@
 }
 
 @media (min-width: 1360px) {
-  .photo {
+  .photoBox {
     margin-top: 30px;
+    height: 450px;
   }
 
   .box {
@@ -86,6 +89,8 @@
     margin-top: 0;
 
     .subtitle {
+      margin-top: 20px;
+
       &:first-child {
         margin-top: 0;
       }

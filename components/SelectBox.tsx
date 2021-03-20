@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "styles/components/selectBox.module.scss";
 import SelectSearch from "react-select-search/dist/cjs";
+import { useRouter } from "next/router";
 
-interface Props {
-  value: string;
-  handleChange: any;
-}
+const SelectBox = () => {
+  const router = useRouter();
+  const { division } = router.query;
+  const [value, setValue] = React.useState(division || "senior");
 
-const SelectBox = ({ value, handleChange }: Props) => {
   const options = [
     { name: "Seniorzy", value: "senior" },
     { name: "2005/2006", value: "B2JuniorMlodszy2005_2006" },
@@ -17,21 +17,24 @@ const SelectBox = ({ value, handleChange }: Props) => {
     { name: "2011", value: "E2Orlik2011" }
   ];
 
-  const test = (value) => {
-    handleChange(value);
+  const onChange = (value) => {
+    setValue(value);
+    if (value === "senior") {
+      router.push(router.pathname);
+    } else {
+      router.push(router.pathname + `?division=${value}`);
+    }
   };
 
   return (
     <div className={styles.selectBox}>
       <p>Wybierz rocznik:</p>
-      {/* <select value={value} onChange={handleChange} className={styles.select}>
-        {options.map((option) => (
-          <option key={option.code} value={option.code}>
-            {option.label}
-          </option>
-        ))}
-      </select> */}
-      <SelectSearch id="selectSearch" options={options} onChange={test} />
+      <SelectSearch
+        id="selectSearch"
+        options={options}
+        onChange={onChange}
+        value={value}
+      />
     </div>
   );
 };

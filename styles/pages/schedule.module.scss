@@ -2,76 +2,102 @@
   overflow: hidden;
 }
 
+.pauseBox {
+  text-align: left;
+}
+
+.teamBox {
+  display: flex;
+}
+
+.matchItem {
+  display: flex;
+}
+
 .weekBox {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+}
 
-  ul {
-    list-style: none;
-    font-size: 16px;
+.matchesList {
+  list-style: none;
 
-    li {
-      padding: 6px 0;
-      border-bottom: 1px solid #f5f2f2;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0;
+    border-bottom: 1px solid #f5f2f2;
 
-      &:first-child {
-        padding-top: 0;
-      }
+    &:first-child {
+      padding-top: 0;
+    }
 
-      &:last-child {
-        border: none;
-      }
-
-      .logoBoxLeft {
-        margin-right: 10px;
-      }
-
-      .logoBoxRight {
-        margin-left: 10px;
-      }
-
-      .pauseLogo {
-        display: none;
-      }
-
-      p {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-
-        .score {
-          display: block;
-        }
-      }
+    &:last-child {
+      border: none;
     }
   }
 }
 
-.tur {
-  font-weight: 700;
+.pausedItem {
+  text-align: center;
 }
 
-@media (min-width: 640px) {
-  .weekBox {
-    ul {
-      font-size: 18px;
+.pausedLogoBox {
+  display: none;
+}
 
-      li {
-        flex-direction: row;
-        justify-content: flex-start;
+.pausedTextBox span {
+  display: block;
+}
 
-        p {
-          display: block;
+.leftLogoBox {
+  margin-right: 10px;
+}
 
-          .score {
-            display: initial;
-            margin: 0 10px;
-          }
-        }
-      }
+.rightLogoBox {
+  margin-left: 10px;
+}
+
+.leftLogoBox,
+.rightLogoBox {
+  display: flex;
+  align-items: center;
+}
+
+.scoreBox {
+  text-align: center;
+}
+
+@media (min-width: 1280px) {
+  .matchesList {
+    li {
+      justify-content: flex-start;
     }
+  }
+
+  .pausedItem {
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+  .pausedLogoBox {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+  }
+
+  .pausedTextBox span {
+    display: initial;
+  }
+
+  .scoreBox {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  .score {
+    margin: 0 10px;
   }
 }

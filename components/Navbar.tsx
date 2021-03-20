@@ -7,6 +7,10 @@ const Navbar = () => {
   const router = useRouter();
   const [isHamburger, setIsHamburger] = React.useState(false);
 
+  const isActiveLink = (link: string) => {
+    return router.pathname === link ? styles.activeLink : "";
+  };
+
   return (
     <div className={styles.navbar}>
       <div className={styles.titleBox}>
@@ -40,57 +44,27 @@ const Navbar = () => {
             <ul className={styles.menu}>
               <li>
                 <Link href="/">
-                  <a
-                    className={router.pathname === "/" ? styles.activeLink : ""}
-                  >
-                    Strona główna
-                  </a>
+                  <a className={isActiveLink("/")}>Strona główna</a>
                 </Link>
               </li>
               <li>
                 <Link href="/aktualnosci">
-                  <a
-                    className={
-                      router.pathname === "/aktualnosci"
-                        ? styles.activeLink
-                        : ""
-                    }
-                  >
-                    Aktualności
-                  </a>
+                  <a className={isActiveLink("/aktualnosci")}>Aktualności</a>
                 </Link>
               </li>
               <li>
                 <Link href="/o-klubie">
-                  <a
-                    className={
-                      router.pathname === "/o-klubie" ? styles.activeLink : ""
-                    }
-                  >
-                    O klubie
-                  </a>
+                  <a className={isActiveLink("/o-klubie")}>O klubie</a>
                 </Link>
               </li>
               <li>
                 <Link href="/terminarz">
-                  <a
-                    className={
-                      router.pathname === "/terminarz" ? styles.activeLink : ""
-                    }
-                  >
-                    Terminarz
-                  </a>
+                  <a className={isActiveLink("/terminarz")}>Terminarz</a>
                 </Link>
               </li>
               <li>
                 <Link href="/informacje">
-                  <a
-                    className={
-                      router.pathname === "/informacje" ? styles.activeLink : ""
-                    }
-                  >
-                    Informacje
-                  </a>
+                  <a className={isActiveLink("/informacje")}>Informacje</a>
                 </Link>
               </li>
             </ul>

@@ -58,12 +58,15 @@ const About = () => {
               </div>
             </div>
           </div>
-          <Image
-            src="/images/photos/kadra.jpg"
-            className={styles.photo}
-            alt="Kibice na stadionie Tura"
-            unsized
-          />
+          <div className={styles.photoBox}>
+            <Image
+              src="/images/photos/kadra.jpg"
+              className={styles.photo}
+              alt="Kibice na stadionie Tura"
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
         </div>
       </div>
     </Layout>

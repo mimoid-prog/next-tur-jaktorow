@@ -11,5 +11,5 @@ export default {
   C2Trampkarz2007_2008,
   D2Mlodzik2009,
   E1Orlik2010,
-  E2Orlik2011
+  E2Orlik2011,
 };

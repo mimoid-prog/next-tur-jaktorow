@@ -9,7 +9,6 @@
 
 .tr {
   border-bottom: 1px solid gray;
-  font-size: 16px;
 
   &:last-child {
     border: none;
@@ -26,6 +25,8 @@
 .logoBox {
   width: 24px;
   margin-right: 6px;
+  display: flex;
+  align-items: center;
 }
 
 .club {
@@ -34,12 +35,16 @@
 }
 
 @media (min-width: 640px) {
-  .tr {
-    font-size: 18px;
-  }
-
   .logoBox {
     width: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .tr {
+    td {
+      padding: 6px 8px;
+    }
   }
 }
 

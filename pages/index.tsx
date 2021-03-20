@@ -5,9 +5,11 @@ import Match from "components/Match";
 import Scoreboard from "components/Scoreboard";
 import SelectBox from "components/SelectBox";
 import Head from "components/Head";
+import { useRouter } from "next/router";
 
 const Index = () => {
-  const [value, setValue] = React.useState("senior");
+  const router = useRouter();
+  const { division } = router.query;
 
   return (
     <Layout>
@@ -15,16 +17,17 @@ const Index = () => {
         title="Strona główna - Tur Jaktorów"
         description="Oficjalna strona klubu piłkarskiego LKS Tur Jaktorów. Zobacz ostatnie mecze, wyniki i tabelę rozgrywek. Klasa A seniorów oraz wszystkie roczniki juniorskie w jednym miejscu."
       />
-      <SelectBox value={value} handleChange={(val: string) => setValue(val)} />
+      <h2 className="secondaryTitle viewTitle">Strona główna</h2>
+      <SelectBox />
       <div className={styles.home}>
         <div className={styles.grid}>
           <div className={styles.gridLastMatch}>
-            <Match firstBox={true} selected={value} />
+            <Match firstBox={true} selected={division} />
           </div>
           <div className={styles.gridNextMatch}>
-            <Match firstBox={false} selected={value} />
+            <Match firstBox={false} selected={division} />
           </div>
-          <Scoreboard selected={value} />
+          <Scoreboard selected={division} />
         </div>
       </div>
     </Layout>

@@ -1,20 +1,20 @@
 import React from "react";
 import { ItemHeader, ItemContent } from "./Item";
 import styles from "styles/components/match.module.scss";
-import getMatches from "data/matches";
 import Image from "next/image";
+import matchesAll from "data/matches";
 
 interface Props {
   firstBox: boolean;
-  selected: string;
+  selected: string | any;
 }
 
 const Match = ({ firstBox, selected }: Props) => {
-  const matches = getMatches(selected);
+  const matches = selected ? matchesAll[selected] : matchesAll["senior"];
   const match = firstBox ? matches.matchOne : matches.matchTwo;
 
   return (
-    <div>
+    <div className={styles.root}>
       <ItemHeader>
         <span className={styles.title}>
           <span className={styles.titleItem}>{match.title}</span>
@@ -36,36 +36,54 @@ const Match = ({ firstBox, selected }: Props) => {
       </ItemHeader>
       <ItemContent>
         <div className={styles.match}>
-          <div className={styles.matchContent}>
+          <div
+            className={`${styles.matchContent} ${
+              match.paused ? styles.pausedMatchContent : ""
+            }`}
+          >
             <div className={styles.logoBox}>
               <Image
                 key={Math.random()}
-                src={`/images/logos/${match.logos.teamOne}`}
+                src={`/images/logos/${match.logos[0]}`}
                 alt={match.clubs[0]}
                 width={100}
                 height={100}
               />
             </div>
-            <div
-              className={`${styles.score} ${match.isText ? styles.soon : ""}`}
-            >
-              {match.score}
-            </div>
-            <div className={styles.logoBox}>
-              <Image
-                key={Math.random()}
-                src={`/images/logos/${match.logos.teamTwo}`}
-                alt={match.clubs[1]}
-                width={100}
-                height={100}
-              />
-            </div>
+
+            {!match.paused && (
+              <div
+                className={`${styles.score} ${match.isText ? styles.soon : ""}`}
+              >
+                {match.score}
+              </div>
+            )}
+            {match.paused && (
+              <div>
+                <span className={styles.pause}>
+                  {match.clubs[0]} <span>pauzuje w kolejce</span>
+                </span>
+              </div>
+            )}
+            {match.clubs.length === 2 && (
+              <div className={styles.logoBox}>
+                <Image
+                  key={Math.random()}
+                  src={`/images/logos/${match.logos[1]}`}
+                  alt={match.clubs[1]}
+                  width={100}
+                  height={100}
+                />
+              </div>
+            )}
           </div>
-          <p className={styles.teamNames}>
-            {match.clubs[0]}
-            <span> - </span>
-            {match.clubs[1]}
-          </p>
+          {!match.paused && (
+            <p className={styles.teamNames}>
+              {match.clubs[0]}
+              {match.clubs[0] && match.clubs[1] ? <span> - </span> : null}
+              {match.clubs[1]}
+            </p>
+          )}
         </div>
       </ItemContent>
     </div>
