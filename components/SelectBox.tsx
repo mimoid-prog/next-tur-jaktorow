@@ -3,10 +3,10 @@ import styles from "styles/components/selectBox.module.scss";
 import SelectSearch from "react-select-search/dist/cjs";
 import { useRouter } from "next/router";
 
-const SelectBox = () => {
-  const router = useRouter();
-  const { division } = router.query;
-  const [value, setValue] = React.useState(division || "senior");
+const SelectBox = ({ initialValue }: { initialValue: string }) => {
+  const { push, pathname } = useRouter();
+
+  const [value, setValue] = React.useState(initialValue);
 
   const options = [
     { name: "Seniorzy", value: "senior" },
@@ -17,12 +17,12 @@ const SelectBox = () => {
     { name: "2011", value: "E2Orlik2011" }
   ];
 
-  const onChange = (value) => {
+  const onChange = (value: string) => {
     setValue(value);
     if (value === "senior") {
-      router.push(router.pathname);
+      push(pathname);
     } else {
-      router.push(router.pathname + `?division=${value}`);
+      push(pathname + `?division=${value}`);
     }
   };
 

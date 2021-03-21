@@ -6,10 +6,11 @@ import Scoreboard from "components/Scoreboard";
 import SelectBox from "components/SelectBox";
 import Head from "components/Head";
 import { useRouter } from "next/router";
+import getDivision from "utils/getDivision";
 
 const Index = () => {
   const router = useRouter();
-  const { division } = router.query;
+  const division = getDivision(router.query.division);
 
   return (
     <Layout>
@@ -17,19 +18,23 @@ const Index = () => {
         title="Strona główna - Tur Jaktorów"
         description="Oficjalna strona klubu piłkarskiego LKS Tur Jaktorów. Zobacz ostatnie mecze, wyniki i tabelę rozgrywek. Klasa A seniorów oraz wszystkie roczniki juniorskie w jednym miejscu."
       />
-      <h2 className="secondaryTitle viewTitle">Strona główna</h2>
-      <SelectBox />
-      <div className={styles.home}>
-        <div className={styles.grid}>
-          <div className={styles.gridLastMatch}>
-            <Match firstBox={true} selected={division} />
+      {router.isReady && (
+        <>
+          <h2 className="secondaryTitle viewTitle">Strona główna</h2>
+          <SelectBox initialValue={division} />
+          <div className={styles.home}>
+            <div className={styles.grid}>
+              <div className={styles.gridLastMatch}>
+                <Match firstBox={true} selected={division} />
+              </div>
+              <div className={styles.gridNextMatch}>
+                <Match firstBox={false} selected={division} />
+              </div>
+              <Scoreboard selected={division} />
+            </div>
           </div>
-          <div className={styles.gridNextMatch}>
-            <Match firstBox={false} selected={division} />
-          </div>
-          <Scoreboard selected={division} />
-        </div>
-      </div>
+        </>
+      )}
     </Layout>
   );
 };

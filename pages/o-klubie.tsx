@@ -65,6 +65,7 @@ const About = () => {
               alt="Kibice na stadionie Tura"
               layout="fill"
               objectFit="cover"
+              priority={true}
             />
           </div>
         </div>
