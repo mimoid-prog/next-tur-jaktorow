@@ -1,7 +1,19 @@
+2021
+Senior: http://www.mzpn.pl/rozgrywki-tabele-i-terminarze/group=Warszawa/season=2020/2021/play=37784/
+B2 JuniorMlodzszy 2005_2006: http://www.mzpn.pl/rozgrywki-tabele-i-terminarze/group=Warszawa/season=2020/2021/play=40384/
+C2 Trampkarz 2007_2008: http://www.mzpn.pl/rozgrywki-tabele-i-terminarze/group=Warszawa/season=2020/2021/play=40397/
+D1 Mlodzik ????: http://www.mzpn.pl/rozgrywki-tabele-i-terminarze/group=Warszawa/season=2020/2021/play=40613/
+D2 Mlodzik 2009: ????
+E1 Orlik 2010: http://www.mzpn.pl/rozgrywki-tabele-i-terminarze/group=Warszawa/season=2020/2021/play=40768/
+E2 Orlik 2011: http://www.mzpn.pl/rozgrywki-tabele-i-terminarze/group=Warszawa/season=2020/2021/play=40824/
+
+2020
+Senior: http://www.mzpn.pl/rozgrywki-tabele-i-terminarze/group=Warszawa/season=2020/2021/play=37784/
 B2 JuniorMlodzszy 2005_2006: http://www.mzpn.pl/rozgrywki-tabele-i-terminarze/group=Warszawa/season=2020/2021/play=37214/
 C2 Trampkarz 2007_2008: http://www.mzpn.pl/rozgrywki-tabele-i-terminarze/group=Warszawa/season=2020/2021/play=37501/
 D2 Mlodzik 2009: http://www.mzpn.pl/rozgrywki-tabele-i-terminarze/group=Warszawa/season=2020/2021/play=37611/
 E1 Orlik 2010: http://www.mzpn.pl/rozgrywki-tabele-i-terminarze/group=Warszawa/season=2020/2021/play=38220/
 E2 Orlik 2011: http://www.mzpn.pl/rozgrywki-tabele-i-terminarze/group=Warszawa/season=2020/2021/play=38093/
+
 Generowanie facebook long lived page tokena:
 https://developers.facebook.com/docs/facebook-login/access-tokens/refreshing/
