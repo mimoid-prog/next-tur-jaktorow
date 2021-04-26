@@ -1,25 +1,25 @@
 export default {
   matchOne: {
     title: "Poprzedni mecz",
-    logos: ["tur.jpg", "uks-bss-irzyk.jpg"],
-    score: "1  :  4",
-    clubs: ["LKS Tur Jaktorów", "UKS BSS IRZYK"],
-    isText: false,
-    date: "20-03-2021",
-    time: "10:00",
-    home: "(u nas)",
-    paused: false,
+    logos: ["tur.jpg"],
+    score: "",
+    clubs: ["LKS Tur Jaktorów"],
+    isText: true,
+    date: "24-04-2021",
+    time: "",
+    home: "",
+    paused: true,
     canceled: false
   },
   matchTwo: {
     title: "Następny mecz",
-    logos: ["tur.jpg", "ks-raszyn.jpg"],
+    logos: ["ksiazenice.jpg", "tur.jpg"],
     score: "wkrótce",
-    clubs: ["LKS Tur Jaktorów", "KS Raszyn"],
+    clubs: ["UKS OFFensywa Książenice", "LKS Tur Jaktorów"],
     isText: true,
-    date: "27-03-2021",
-    time: "10:00",
-    home: "(u nas)",
+    date: "08-05-2021",
+    time: "",
+    home: "(wyjazd)",
     paused: false,
     canceled: false
   }

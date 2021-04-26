@@ -1,7 +1,7 @@
 export default [
   {
     position: "1",
-    team: "AP Żyrardowianka II",
+    team: "AP Żyrardowianka",
     matches: "0",
     points: "0",
     w: "0",

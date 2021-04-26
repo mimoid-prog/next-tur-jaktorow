@@ -1,32 +1,40 @@
 export default [
   {
     week: 1,
-    date: "27-03-2021",
+    date: "01-05-2021",
     matches: [
       {
-        date: "27-03-2021",
-        time: "10:00",
+        date: "01-05-2021",
+        time: "",
         home: false,
         teamOne: "KS Teresin",
         teamTwo: "LKS Tur Jaktorów",
         logoOne: "teresin.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "28-03-2021",
-        time: "15:00",
+        date: "30-04-2021",
+        time: "18:30",
         home: null,
         teamOne: "UKS Unia Boryszew",
         teamTwo: "MKS Znicz III Pruszków",
         logoOne: "unia-boryszew.jpg",
         logoTwo: "znicz-pruszkow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "28-03-2021",
+        date: "02-05-2021",
         time: "10:00",
         home: null,
         teamOne: "GLKS Relax Radziwiłłów",
@@ -34,27 +42,35 @@ export default [
         logoOne: "relax-radziwillow.jpg",
         logoTwo: "pogon-grodzisk.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
   {
     week: 2,
-    date: "10-04-2021",
+    date: "05-06-2021",
     matches: [
       {
-        date: "10-04-2021",
+        date: "05-06-2021",
         time: "",
-        home: false,
+        home: true,
         teamOne: "LKS Tur Jaktorów",
         teamTwo: "GKS Pogoń II Grodzisk Maz.",
         logoOne: "tur.jpg",
         logoTwo: "pogon-grodzisk.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "10-04-2021",
+        date: "05-06-2021",
         time: "",
         home: null,
         teamOne: "MKS Znicz III Pruszków",
@@ -62,27 +78,35 @@ export default [
         logoOne: "znicz-pruszkow.jpg",
         logoTwo: "relax-radziwillow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "11-04-2021",
-        time: "10:00",
+        date: "05-06-2021",
+        time: "",
         home: null,
         teamOne: "KS Teresin",
         teamTwo: "UKS Unia Boryszew",
         logoOne: "teresin.jpg",
         logoTwo: "unia-boryszew.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
   {
     week: 3,
-    date: "17-04-2021",
+    date: "26-06-2021",
     matches: [
       {
-        date: "17-04-2021",
+        date: "26-06-2021",
         time: "",
         home: false,
         teamOne: "UKS Unia Boryszew",
@@ -90,10 +114,14 @@ export default [
         logoOne: "unia-boryszew.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "17-04-2021",
+        date: "26-06-2021",
         time: "",
         home: null,
         teamOne: "GLKS Relax Radziwiłłów",
@@ -101,18 +129,26 @@ export default [
         logoOne: "relax-radziwillow.jpg",
         logoTwo: "teresin.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "17-04-2021",
-        time: "14:30",
+        date: "26-06-2021",
+        time: "",
         home: null,
         teamOne: "GKS Pogoń II Grodzisk Maz.",
         teamTwo: "MKS Znicz III Pruszków",
         logoOne: "pogon-grodzisk.jpg",
         logoTwo: "znicz-pruszkow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -121,15 +157,19 @@ export default [
     date: "24-04-2021",
     matches: [
       {
-        date: "24-04-2021",
-        time: "",
-        home: false,
+        date: "25-04-2021",
+        time: "16:30",
+        home: true,
         teamOne: "LKS Tur Jaktorów",
         teamTwo: "MKS Znicz III Pruszków",
         logoOne: "tur.jpg",
         logoTwo: "znicz-pruszkow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "24-04-2021",
@@ -140,18 +180,26 @@ export default [
         logoOne: "teresin.jpg",
         logoTwo: "pogon-grodzisk.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "24-04-2021",
-        time: "",
+        time: "16:00",
         home: null,
         teamOne: "UKS Unia Boryszew",
         teamTwo: "GLKS Relax Radziwiłłów",
         logoOne: "unia-boryszew.jpg",
         logoTwo: "relax-radziwillow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -160,15 +208,19 @@ export default [
     date: "08-05-2021",
     matches: [
       {
-        date: "08-05-2021",
-        time: "",
+        date: "09-05-2021",
+        time: "10:00",
         home: false,
         teamOne: "GLKS Relax Radziwiłłów",
         teamTwo: "LKS Tur Jaktorów",
         logoOne: "relax-radziwillow.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "08-05-2021",
@@ -179,18 +231,26 @@ export default [
         logoOne: "pogon-grodzisk.jpg",
         logoTwo: "unia-boryszew.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "08-05-2021",
-        time: "",
+        time: "13:00",
         home: null,
         teamOne: "MKS Znicz III Pruszków",
         teamTwo: "KS Teresin",
         logoOne: "znicz-pruszkow.jpg",
         logoTwo: "teresin.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -207,7 +267,11 @@ export default [
         logoOne: "tur.jpg",
         logoTwo: "teresin.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "15-05-2021",
@@ -218,18 +282,26 @@ export default [
         logoOne: "znicz-pruszkow.jpg",
         logoTwo: "unia-boryszew.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "15-05-2021",
-        time: "10:00",
+        date: "14-05-2021",
+        time: "16:00",
         home: null,
         teamOne: "GKS Pogoń II Grodzisk Maz.",
         teamTwo: "GLKS Relax Radziwiłłów",
         logoOne: "pogon-grodzisk.jpg",
         logoTwo: "relax-radziwillow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -238,26 +310,34 @@ export default [
     date: "22-05-2021",
     matches: [
       {
-        date: "22-05-2021",
-        time: "10:00",
+        date: "23-05-2021",
+        time: "15:00",
         home: false,
         teamOne: "GKS Pogoń II Grodzisk Maz.",
         teamTwo: "LKS Tur Jaktorów",
         logoOne: "pogon-grodzisk.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "22-05-2021",
-        time: "",
+        date: "23-05-2021",
+        time: "10:00",
         home: null,
         teamOne: "GLKS Relax Radziwiłłów",
         teamTwo: "MKS Znicz III Pruszków",
         logoOne: "relax-radziwillow.jpg",
         logoTwo: "znicz-pruszkow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "22-05-2021",
@@ -268,7 +348,11 @@ export default [
         logoOne: "unia-boryszew.jpg",
         logoTwo: "teresin.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -285,7 +369,11 @@ export default [
         logoOne: "tur.jpg",
         logoTwo: "unia-boryszew.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "29-05-2021",
@@ -296,7 +384,11 @@ export default [
         logoOne: "teresin.jpg",
         logoTwo: "relax-radziwillow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "29-05-2021",
@@ -307,7 +399,11 @@ export default [
         logoOne: "znicz-pruszkow.jpg",
         logoTwo: "pogon-grodzisk.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -324,7 +420,11 @@ export default [
         logoOne: "znicz-pruszkow.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "12-06-2021",
@@ -335,7 +435,11 @@ export default [
         logoOne: "pogon-grodzisk.jpg",
         logoTwo: "teresin.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "12-06-2021",
@@ -346,7 +450,11 @@ export default [
         logoOne: "relax-radziwillow.jpg",
         logoTwo: "unia-boryszew.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -363,7 +471,11 @@ export default [
         logoOne: "tur.jpg",
         logoTwo: "relax-radziwillow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "19-06-2021",
@@ -374,7 +486,11 @@ export default [
         logoOne: "unia-boryszew.jpg",
         logoTwo: "pogon-grodzisk.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "20-06-2021",
@@ -385,7 +501,11 @@ export default [
         logoOne: "teresin.jpg",
         logoTwo: "znicz-pruszkow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   }

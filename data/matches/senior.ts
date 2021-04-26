@@ -1,22 +1,26 @@
 export default {
   matchOne: {
     title: "Poprzedni mecz",
-    logos: ["partyzant.jpg", "tur.jpg"],
-    score: "1  :  0",
-    clubs: ["KS Partyzant Leszno", "LKS Tur Jaktorów"],
-    isText: false,
-    date: "14-11-2020",
-    time: "13:00",
-    home: "(wyjazd)"
+    logos: ["tur.jpg", "wrzos.jpg"],
+    score: "brak danych",
+    clubs: ["LKS Tur Jaktorów", "LKS Wrzos Międzyborów"],
+    isText: true,
+    date: "01-05-2021",
+    time: "10:00",
+    home: "(u nas)",
+    paused: false,
+    canceled: false
   },
   matchTwo: {
     title: "Następny mecz",
-    logos: ["orzel.jpg", "tur.jpg"],
+    logos: ["blekitni.jpg", "tur.jpg"],
     score: "wkrótce",
-    clubs: ["KS Orzeł Kampinos", "LKS Tur Jaktorów"],
+    clubs: ["LZS Błękitni Korytów", "LKS Tur Jaktorów"],
     isText: true,
-    date: "28-03-2021",
-    time: "11:00",
-    home: "(wyjazd)"
+    date: "09-05-2021",
+    time: "16:00",
+    home: "(wyjazd)",
+    paused: false,
+    canceled: false
   }
 };

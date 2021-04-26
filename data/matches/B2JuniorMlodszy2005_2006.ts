@@ -1,26 +1,26 @@
 export default {
   matchOne: {
-    title: "Pierwszy mecz",
-    logos: ["tur.jpg", "mszczonowianka.jpg"],
-    score: "wkrótce",
-    clubs: ["LKS Tur Jaktorów", "KS Mszczonowianka"],
+    title: "Poprzedni mecz",
+    logos: ["komorow.jpg", "tur.jpg"],
+    score: "brak danych",
+    clubs: ["FC Komorów", "LKS Tur Jaktorów"],
     isText: true,
-    date: "21-03-2021",
-    time: "11:00",
-    home: "(u nas)",
+    date: "25-04-2021",
+    time: "18:00",
+    home: "(wyjazd)",
     paused: false,
     canceled: false
   },
   matchTwo: {
-    title: "Drugi mecz",
-    logos: ["ts-gwardia.jpg", "tur.jpg"],
-    score: "wkrótce",
-    clubs: ["TS Gwardia", "LKS Tur Jaktorów"],
+    title: "Następny mecz",
+    logos: ["tur.jpg"],
+    score: "",
+    clubs: ["LKS Tur Jaktorów"],
     isText: true,
-    date: "28-03-2021",
-    time: "16:00",
-    home: "(wyjazd)",
-    paused: false,
+    date: "-",
+    time: "",
+    home: "",
+    paused: true,
     canceled: false
   }
 };

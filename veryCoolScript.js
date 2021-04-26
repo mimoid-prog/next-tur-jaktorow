@@ -173,6 +173,9 @@ const info = [
   }
 ];
 
+//Literówki i niespójności w sposobie zapisu pauzy
+const pauseTexts = ["pauzuje w kolejce", "pauzuje", "pauzje"];
+
 let matchOne = {};
 let matchTwo = {};
 
@@ -191,8 +194,8 @@ Array.from(mainTable.children[1].children).forEach((row) => {
   const l = row.children[6].innerText;
   const goals = row.children[7].innerText;
 
-  const index = info.findIndex(
-    (el) => el.club.toLowerCase() === team.toLowerCase()
+  const index = info.findIndex((el) =>
+    team.toLowerCase().includes(el.club.toLowerCase())
   );
 
   table.push({
@@ -224,9 +227,11 @@ Array.from(tables).forEach((table, i) => {
   });
 
   Array.from(rows).forEach((row) => {
-    const leftTeam = row.children[0].innerText;
+    //Z jakiegoś powodu nazwa drużyny jest czasami pusta, a chyba powinna być "pauzuje w kolejce"
+    const leftTeam = row.children[0].innerText || "pauzuje w kolejce";
     const score = row.children[1].innerText;
-    const rightTeam = row.children[2].innerText;
+    //Z jakiegoś powodu nazwa drużyny jest czasami pusta, a chyba powinna być "pauzuje w kolejce"
+    const rightTeam = row.children[2].innerText || "pauzuje w kolejce";
     const fullDate = row.children[3].innerText;
     const place = row.children[4].innerText;
 
@@ -235,11 +240,13 @@ Array.from(tables).forEach((table, i) => {
 
     const isTurWeek = leftTeam.includes("Tur") || rightTeam.includes("Tur");
 
-    const leftTeamIndex = info.findIndex(
-      (el) => el.club.toLowerCase() === leftTeam.toLowerCase()
+    const leftTeamIndex = info.findIndex((el) =>
+      leftTeam.toLowerCase().includes(el.club.toLowerCase())
     );
-    const rightTeamIndex = info.findIndex(
-      (el) => el.club.toLowerCase() === rightTeam.toLowerCase()
+
+    console.log(rightTeam);
+    const rightTeamIndex = info.findIndex((el) =>
+      rightTeam.toLowerCase().includes(el.club.toLowerCase())
     );
 
     let canceled = false;
@@ -253,15 +260,18 @@ Array.from(tables).forEach((table, i) => {
     let logoOne = "",
       logoTwo = "";
 
-    if (leftTeam === "pauzuje w kolejce" || rightTeam === "pauzuje w kolejce") {
+    if (
+      pauseTexts.includes(leftTeam.toLowerCase()) ||
+      pauseTexts.includes(rightTeam.toLowerCase())
+    ) {
       paused = true;
 
-      if (leftTeam !== "pauzuje w kolejce") {
+      if (pauseTexts.includes(leftTeam.toLowerCase()) === false) {
         pausedTeam = info[leftTeamIndex].club;
         pausedLogo = info[leftTeamIndex].logo;
       }
 
-      if (rightTeam !== "pauzuje w kolejce") {
+      if (pauseTexts.includes(rightTeam.toLowerCase()) === false) {
         pausedTeam = info[rightTeamIndex].club;
         pausedLogo = info[rightTeamIndex].logo;
       }
@@ -358,9 +368,16 @@ Array.from(bullets).forEach((bullet, i) => {
     } else if (currentWeek < bullets.length - 2) {
       titleOne = `Poprzedni mecz`;
       titleTwo = `Następny mecz`;
-      scoreOne = `${matchOneData.scoreOne} : ${matchOneData.scoreTwo}`;
+
+      if (matchOneData.scoreOne === "" || matchTwoData.scoreOne === "") {
+        scoreOne = `brak danych`;
+        isTextOne = true;
+      } else {
+        scoreOne = `${matchOneData.scoreOne} : ${matchOneData.scoreTwo}`;
+        isTextOne = false;
+      }
+
       scoreTwo = "wkrótce";
-      isTextOne = false;
       isTextTwo = true;
     } else {
       titleOne = `Przedostatni mecz sezonu`;

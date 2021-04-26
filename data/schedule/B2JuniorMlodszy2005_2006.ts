@@ -26,8 +26,8 @@ export default [
         teamTwo: "KS Promyk Nowa Sucha",
         logoOne: "partyzant.jpg",
         logoTwo: "promyk.jpg",
-        scoreOne: "",
-        scoreTwo: "",
+        scoreOne: "1 ",
+        scoreTwo: " 0",
         paused: false,
         pausedTeam: "",
         pausedLogo: "",
@@ -41,8 +41,8 @@ export default [
         teamTwo: "TS Gwardia",
         logoOne: "komorow.jpg",
         logoTwo: "ts-gwardia.jpg",
-        scoreOne: "",
-        scoreTwo: "",
+        scoreOne: "4 ",
+        scoreTwo: " 6",
         paused: false,
         pausedTeam: "",
         pausedLogo: "",
@@ -56,8 +56,8 @@ export default [
         teamTwo: "KS Mszczonowianka",
         logoOne: "tur.jpg",
         logoTwo: "mszczonowianka.jpg",
-        scoreOne: "",
-        scoreTwo: "",
+        scoreOne: "4 ",
+        scoreTwo: " 3",
         paused: false,
         pausedTeam: "",
         pausedLogo: "",
@@ -67,7 +67,7 @@ export default [
   },
   {
     week: 2,
-    date: "27-03-2021",
+    date: "01-05-2021",
     matches: [
       {
         date: "-",
@@ -85,7 +85,7 @@ export default [
         canceled: false
       },
       {
-        date: "28-03-2021",
+        date: "01-05-2021",
         time: "16:00",
         home: false,
         teamOne: "TS Gwardia",
@@ -100,8 +100,8 @@ export default [
         canceled: false
       },
       {
-        date: "28-03-2021",
-        time: "16:00",
+        date: "06-05-2021",
+        time: "18:00",
         home: null,
         teamOne: "KS Promyk Nowa Sucha",
         teamTwo: "FC Komorów",
@@ -115,8 +115,8 @@ export default [
         canceled: false
       },
       {
-        date: "28-03-2021",
-        time: "10:00",
+        date: "29-04-2021",
+        time: "18:30",
         home: null,
         teamOne: "GKS Naprzód Stare Babice",
         teamTwo: "KS Partyzant Leszno",
@@ -133,7 +133,7 @@ export default [
   },
   {
     week: 3,
-    date: "02-04-2021",
+    date: "09-06-2021",
     matches: [
       {
         date: "-",
@@ -151,8 +151,8 @@ export default [
         canceled: false
       },
       {
-        date: "07-04-2021",
-        time: "20:00",
+        date: "09-06-2021",
+        time: "",
         home: null,
         teamOne: "FC Komorów",
         teamTwo: "GKS Naprzód Stare Babice",
@@ -166,8 +166,8 @@ export default [
         canceled: false
       },
       {
-        date: "03-04-2021",
-        time: "12:00",
+        date: "09-06-2021",
+        time: "",
         home: true,
         teamOne: "LKS Tur Jaktorów",
         teamTwo: "KS Promyk Nowa Sucha",
@@ -181,8 +181,8 @@ export default [
         canceled: false
       },
       {
-        date: "02-04-2021",
-        time: "15:00",
+        date: "09-06-2021",
+        time: "",
         home: null,
         teamOne: "KS Mszczonowianka",
         teamTwo: "TS Gwardia",
@@ -199,7 +199,7 @@ export default [
   },
   {
     week: 4,
-    date: "10-04-2021",
+    date: "23-06-2021",
     matches: [
       {
         date: "-",
@@ -217,7 +217,7 @@ export default [
         canceled: false
       },
       {
-        date: "10-04-2021",
+        date: "23-06-2021",
         time: "",
         home: null,
         teamOne: "KS Promyk Nowa Sucha",
@@ -232,8 +232,8 @@ export default [
         canceled: false
       },
       {
-        date: "10-04-2021",
-        time: "11:00",
+        date: "23-06-2021",
+        time: "",
         home: false,
         teamOne: "GKS Naprzód Stare Babice",
         teamTwo: "LKS Tur Jaktorów",
@@ -247,8 +247,8 @@ export default [
         canceled: false
       },
       {
-        date: "10-04-2021",
-        time: "",
+        date: "23-06-2021",
+        time: "18:00",
         home: null,
         teamOne: "KS Partyzant Leszno",
         teamTwo: "FC Komorów",
@@ -265,7 +265,7 @@ export default [
   },
   {
     week: 5,
-    date: "17-04-2021",
+    date: "26-06-2021",
     matches: [
       {
         date: "-",
@@ -283,9 +283,9 @@ export default [
         canceled: false
       },
       {
-        date: "17-04-2021",
+        date: "26-06-2021",
         time: "",
-        home: false,
+        home: true,
         teamOne: "LKS Tur Jaktorów",
         teamTwo: "KS Partyzant Leszno",
         logoOne: "tur.jpg",
@@ -298,7 +298,7 @@ export default [
         canceled: false
       },
       {
-        date: "17-04-2021",
+        date: "26-06-2021",
         time: "",
         home: null,
         teamOne: "KS Mszczonowianka",
@@ -313,8 +313,8 @@ export default [
         canceled: false
       },
       {
-        date: "18-04-2021",
-        time: "16:30",
+        date: "26-06-2021",
+        time: "16:00",
         home: null,
         teamOne: "TS Gwardia",
         teamTwo: "KS Promyk Nowa Sucha",
@@ -356,8 +356,8 @@ export default [
         teamTwo: "TS Gwardia",
         logoOne: "stare-babice.jpg",
         logoTwo: "ts-gwardia.jpg",
-        scoreOne: "",
-        scoreTwo: "",
+        scoreOne: "2 ",
+        scoreTwo: " 7",
         paused: false,
         pausedTeam: "",
         pausedLogo: "",
@@ -365,29 +365,29 @@ export default [
       },
       {
         date: "24-04-2021",
-        time: "",
+        time: "13:00",
         home: null,
         teamOne: "KS Partyzant Leszno",
         teamTwo: "KS Mszczonowianka",
         logoOne: "partyzant.jpg",
         logoTwo: "mszczonowianka.jpg",
-        scoreOne: "",
-        scoreTwo: "",
+        scoreOne: "2 ",
+        scoreTwo: " 4",
         paused: false,
         pausedTeam: "",
         pausedLogo: "",
         canceled: false
       },
       {
-        date: "24-04-2021",
-        time: "",
+        date: "25-04-2021",
+        time: "18:00",
         home: false,
         teamOne: "FC Komorów",
         teamTwo: "LKS Tur Jaktorów",
         logoOne: "komorow.jpg",
         logoTwo: "tur.jpg",
-        scoreOne: "",
-        scoreTwo: "",
+        scoreOne: "7 ",
+        scoreTwo: " 1",
         paused: false,
         pausedTeam: "",
         pausedLogo: "",
@@ -415,8 +415,8 @@ export default [
         canceled: false
       },
       {
-        date: "08-05-2021",
-        time: "",
+        date: "09-05-2021",
+        time: "11:00",
         home: null,
         teamOne: "KS Mszczonowianka",
         teamTwo: "FC Komorów",
@@ -445,8 +445,8 @@ export default [
         canceled: false
       },
       {
-        date: "08-05-2021",
-        time: "",
+        date: "09-05-2021",
+        time: "13:00",
         home: null,
         teamOne: "KS Promyk Nowa Sucha",
         teamTwo: "GKS Naprzód Stare Babice",
@@ -578,7 +578,7 @@ export default [
       },
       {
         date: "22-05-2021",
-        time: "",
+        time: "11:00",
         home: null,
         teamOne: "KS Partyzant Leszno",
         teamTwo: "GKS Naprzód Stare Babice",

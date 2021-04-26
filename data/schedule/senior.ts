@@ -12,7 +12,11 @@ export default [
         logoOne: "tajfun.jpg",
         logoTwo: "blekitni.jpg",
         scoreOne: "3 ",
-        scoreTwo: " 8"
+        scoreTwo: " 8",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "16-08-2020",
@@ -23,7 +27,11 @@ export default [
         logoOne: "blizne.jpg",
         logoTwo: "jozefow.jpg",
         scoreOne: "0 ",
-        scoreTwo: " 4"
+        scoreTwo: " 4",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "15-08-2020",
@@ -34,7 +42,11 @@ export default [
         logoOne: "wrzos.jpg",
         logoTwo: "blonianka.jpg",
         scoreOne: "3 ",
-        scoreTwo: " 5"
+        scoreTwo: " 5",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "15-08-2020",
@@ -45,7 +57,11 @@ export default [
         logoOne: "tur.jpg",
         logoTwo: "orzel.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "02-09-2020",
@@ -56,7 +72,11 @@ export default [
         logoOne: "osuchow.jpg",
         logoTwo: "partyzant.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "16-08-2020",
@@ -67,7 +87,11 @@ export default [
         logoOne: "chlebnia.jpg",
         logoTwo: "feliksow.jpg",
         scoreOne: "3 ",
-        scoreTwo: " 0"
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "15-08-2020",
@@ -78,7 +102,11 @@ export default [
         logoOne: "zaborow.jpg",
         logoTwo: "promyk.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -95,7 +123,11 @@ export default [
         logoOne: "blekitni.jpg",
         logoTwo: "promyk.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "22-08-2020",
@@ -106,7 +138,11 @@ export default [
         logoOne: "feliksow.jpg",
         logoTwo: "zaborow.jpg",
         scoreOne: "3 ",
-        scoreTwo: " 9"
+        scoreTwo: " 9",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "23-08-2020",
@@ -117,7 +153,11 @@ export default [
         logoOne: "partyzant.jpg",
         logoTwo: "chlebnia.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 4"
+        scoreTwo: " 4",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "23-08-2020",
@@ -128,7 +168,11 @@ export default [
         logoOne: "orzel.jpg",
         logoTwo: "osuchow.jpg",
         scoreOne: "4 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "22-08-2020",
@@ -139,7 +183,11 @@ export default [
         logoOne: "blonianka.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "4 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "22-08-2020",
@@ -150,7 +198,11 @@ export default [
         logoOne: "jozefow.jpg",
         logoTwo: "wrzos.jpg",
         scoreOne: "6 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "22-08-2020",
@@ -161,7 +213,11 @@ export default [
         logoOne: "tajfun.jpg",
         logoTwo: "blizne.jpg",
         scoreOne: "0 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -178,7 +234,11 @@ export default [
         logoOne: "blizne.jpg",
         logoTwo: "blekitni.jpg",
         scoreOne: "5 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "29-08-2020",
@@ -189,7 +249,11 @@ export default [
         logoOne: "wrzos.jpg",
         logoTwo: "tajfun.jpg",
         scoreOne: "5 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "29-08-2020",
@@ -200,7 +264,11 @@ export default [
         logoOne: "tur.jpg",
         logoTwo: "jozefow.jpg",
         scoreOne: "0 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "29-08-2020",
@@ -211,7 +279,11 @@ export default [
         logoOne: "osuchow.jpg",
         logoTwo: "blonianka.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "30-08-2020",
@@ -222,7 +294,11 @@ export default [
         logoOne: "chlebnia.jpg",
         logoTwo: "orzel.jpg",
         scoreOne: "7 ",
-        scoreTwo: " 0"
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "29-08-2020",
@@ -233,7 +309,11 @@ export default [
         logoOne: "zaborow.jpg",
         logoTwo: "partyzant.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "29-08-2020",
@@ -244,7 +324,11 @@ export default [
         logoOne: "promyk.jpg",
         logoTwo: "feliksow.jpg",
         scoreOne: "4 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -261,7 +345,11 @@ export default [
         logoOne: "blekitni.jpg",
         logoTwo: "feliksow.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 4"
+        scoreTwo: " 4",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "05-09-2020",
@@ -272,7 +360,11 @@ export default [
         logoOne: "partyzant.jpg",
         logoTwo: "promyk.jpg",
         scoreOne: "0 ",
-        scoreTwo: " 0"
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "06-09-2020",
@@ -283,7 +375,11 @@ export default [
         logoOne: "orzel.jpg",
         logoTwo: "zaborow.jpg",
         scoreOne: "3 ",
-        scoreTwo: " 0"
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "06-09-2020",
@@ -294,7 +390,11 @@ export default [
         logoOne: "blonianka.jpg",
         logoTwo: "chlebnia.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 6"
+        scoreTwo: " 6",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "05-09-2020",
@@ -305,7 +405,11 @@ export default [
         logoOne: "jozefow.jpg",
         logoTwo: "osuchow.jpg",
         scoreOne: "3 ",
-        scoreTwo: " 0"
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "05-09-2020",
@@ -316,7 +420,11 @@ export default [
         logoOne: "tajfun.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "0 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "06-09-2020",
@@ -327,7 +435,11 @@ export default [
         logoOne: "blizne.jpg",
         logoTwo: "wrzos.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -344,7 +456,11 @@ export default [
         logoOne: "wrzos.jpg",
         logoTwo: "blekitni.jpg",
         scoreOne: "5 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "12-09-2020",
@@ -355,7 +471,11 @@ export default [
         logoOne: "tur.jpg",
         logoTwo: "blizne.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 0"
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "12-09-2020",
@@ -366,7 +486,11 @@ export default [
         logoOne: "osuchow.jpg",
         logoTwo: "tajfun.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "13-09-2020",
@@ -377,7 +501,11 @@ export default [
         logoOne: "chlebnia.jpg",
         logoTwo: "jozefow.jpg",
         scoreOne: "3 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "12-09-2020",
@@ -388,7 +516,11 @@ export default [
         logoOne: "zaborow.jpg",
         logoTwo: "blonianka.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "12-09-2020",
@@ -399,7 +531,11 @@ export default [
         logoOne: "promyk.jpg",
         logoTwo: "orzel.jpg",
         scoreOne: "7 ",
-        scoreTwo: " 0"
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "12-09-2020",
@@ -410,7 +546,11 @@ export default [
         logoOne: "feliksow.jpg",
         logoTwo: "partyzant.jpg",
         scoreOne: "0 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -427,7 +567,11 @@ export default [
         logoOne: "blekitni.jpg",
         logoTwo: "partyzant.jpg",
         scoreOne: "3 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "20-09-2020",
@@ -438,7 +582,11 @@ export default [
         logoOne: "orzel.jpg",
         logoTwo: "feliksow.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "20-09-2020",
@@ -449,7 +597,11 @@ export default [
         logoOne: "blonianka.jpg",
         logoTwo: "promyk.jpg",
         scoreOne: "4 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "19-09-2020",
@@ -460,7 +612,11 @@ export default [
         logoOne: "jozefow.jpg",
         logoTwo: "zaborow.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 7"
+        scoreTwo: " 7",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "19-09-2020",
@@ -471,7 +627,11 @@ export default [
         logoOne: "tajfun.jpg",
         logoTwo: "chlebnia.jpg",
         scoreOne: "0 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "20-09-2020",
@@ -482,7 +642,11 @@ export default [
         logoOne: "blizne.jpg",
         logoTwo: "osuchow.jpg",
         scoreOne: "5 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "19-09-2020",
@@ -493,7 +657,11 @@ export default [
         logoOne: "wrzos.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -510,7 +678,11 @@ export default [
         logoOne: "tur.jpg",
         logoTwo: "blekitni.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 4"
+        scoreTwo: " 4",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "26-09-2020",
@@ -521,7 +693,11 @@ export default [
         logoOne: "osuchow.jpg",
         logoTwo: "wrzos.jpg",
         scoreOne: "0 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "27-09-2020",
@@ -532,7 +708,11 @@ export default [
         logoOne: "chlebnia.jpg",
         logoTwo: "blizne.jpg",
         scoreOne: "3 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "26-09-2020",
@@ -543,7 +723,11 @@ export default [
         logoOne: "zaborow.jpg",
         logoTwo: "tajfun.jpg",
         scoreOne: "5 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "26-09-2020",
@@ -554,7 +738,11 @@ export default [
         logoOne: "promyk.jpg",
         logoTwo: "jozefow.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 4"
+        scoreTwo: " 4",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "26-09-2020",
@@ -565,7 +753,11 @@ export default [
         logoOne: "feliksow.jpg",
         logoTwo: "blonianka.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "26-09-2020",
@@ -576,7 +768,11 @@ export default [
         logoOne: "partyzant.jpg",
         logoTwo: "orzel.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -593,7 +789,11 @@ export default [
         logoOne: "blekitni.jpg",
         logoTwo: "orzel.jpg",
         scoreOne: "4 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "04-10-2020",
@@ -604,7 +804,11 @@ export default [
         logoOne: "blonianka.jpg",
         logoTwo: "partyzant.jpg",
         scoreOne: "4 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "03-10-2020",
@@ -615,7 +819,11 @@ export default [
         logoOne: "jozefow.jpg",
         logoTwo: "feliksow.jpg",
         scoreOne: "4 ",
-        scoreTwo: " 0"
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "04-10-2020",
@@ -626,7 +834,11 @@ export default [
         logoOne: "promyk.jpg",
         logoTwo: "tajfun.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 0"
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "04-10-2020",
@@ -637,7 +849,11 @@ export default [
         logoOne: "blizne.jpg",
         logoTwo: "zaborow.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 0"
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "03-10-2020",
@@ -648,7 +864,11 @@ export default [
         logoOne: "wrzos.jpg",
         logoTwo: "chlebnia.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "03-10-2020",
@@ -659,7 +879,11 @@ export default [
         logoOne: "tur.jpg",
         logoTwo: "osuchow.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -676,7 +900,11 @@ export default [
         logoOne: "osuchow.jpg",
         logoTwo: "blekitni.jpg",
         scoreOne: "0 ",
-        scoreTwo: " 7"
+        scoreTwo: " 7",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "11-10-2020",
@@ -687,7 +915,11 @@ export default [
         logoOne: "chlebnia.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "3 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "10-10-2020",
@@ -698,7 +930,11 @@ export default [
         logoOne: "zaborow.jpg",
         logoTwo: "wrzos.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 6"
+        scoreTwo: " 6",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "10-10-2020",
@@ -709,7 +945,11 @@ export default [
         logoOne: "promyk.jpg",
         logoTwo: "blizne.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "10-10-2020",
@@ -720,7 +960,11 @@ export default [
         logoOne: "feliksow.jpg",
         logoTwo: "tajfun.jpg",
         scoreOne: "5 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "10-10-2020",
@@ -731,7 +975,11 @@ export default [
         logoOne: "partyzant.jpg",
         logoTwo: "jozefow.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "11-10-2020",
@@ -742,7 +990,11 @@ export default [
         logoOne: "orzel.jpg",
         logoTwo: "blonianka.jpg",
         scoreOne: "3 ",
-        scoreTwo: " 4"
+        scoreTwo: " 4",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -759,7 +1011,11 @@ export default [
         logoOne: "blekitni.jpg",
         logoTwo: "blonianka.jpg",
         scoreOne: "5 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "17-10-2020",
@@ -770,7 +1026,11 @@ export default [
         logoOne: "jozefow.jpg",
         logoTwo: "orzel.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "18-10-2020",
@@ -781,7 +1041,11 @@ export default [
         logoOne: "tajfun.jpg",
         logoTwo: "partyzant.jpg",
         scoreOne: "0 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "18-10-2020",
@@ -792,7 +1056,11 @@ export default [
         logoOne: "blizne.jpg",
         logoTwo: "feliksow.jpg",
         scoreOne: "5 ",
-        scoreTwo: " 0"
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "31-10-2020",
@@ -803,7 +1071,11 @@ export default [
         logoOne: "wrzos.jpg",
         logoTwo: "promyk.jpg",
         scoreOne: "6 ",
-        scoreTwo: " 4"
+        scoreTwo: " 4",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "17-10-2020",
@@ -814,7 +1086,11 @@ export default [
         logoOne: "tur.jpg",
         logoTwo: "zaborow.jpg",
         scoreOne: "3 ",
-        scoreTwo: " 4"
+        scoreTwo: " 4",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "17-10-2020",
@@ -825,7 +1101,11 @@ export default [
         logoOne: "osuchow.jpg",
         logoTwo: "chlebnia.jpg",
         scoreOne: "0 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -842,7 +1122,11 @@ export default [
         logoOne: "chlebnia.jpg",
         logoTwo: "blekitni.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "24-10-2020",
@@ -853,7 +1137,11 @@ export default [
         logoOne: "zaborow.jpg",
         logoTwo: "osuchow.jpg",
         scoreOne: "6 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "25-10-2020",
@@ -864,7 +1152,11 @@ export default [
         logoOne: "promyk.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "6 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "24-10-2020",
@@ -875,7 +1167,11 @@ export default [
         logoOne: "feliksow.jpg",
         logoTwo: "wrzos.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 6"
+        scoreTwo: " 6",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "25-10-2020",
@@ -886,7 +1182,11 @@ export default [
         logoOne: "partyzant.jpg",
         logoTwo: "blizne.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "25-10-2020",
@@ -897,7 +1197,11 @@ export default [
         logoOne: "orzel.jpg",
         logoTwo: "tajfun.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 0"
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "25-10-2020",
@@ -908,7 +1212,11 @@ export default [
         logoOne: "blonianka.jpg",
         logoTwo: "jozefow.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -925,7 +1233,11 @@ export default [
         logoOne: "blekitni.jpg",
         logoTwo: "jozefow.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "08-11-2020",
@@ -936,7 +1248,11 @@ export default [
         logoOne: "tajfun.jpg",
         logoTwo: "blonianka.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "08-11-2020",
@@ -947,7 +1263,11 @@ export default [
         logoOne: "blizne.jpg",
         logoTwo: "orzel.jpg",
         scoreOne: "4 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "07-11-2020",
@@ -958,7 +1278,11 @@ export default [
         logoOne: "wrzos.jpg",
         logoTwo: "partyzant.jpg",
         scoreOne: "0 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "07-11-2020",
@@ -969,7 +1293,11 @@ export default [
         logoOne: "tur.jpg",
         logoTwo: "feliksow.jpg",
         scoreOne: "3 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "07-11-2020",
@@ -980,7 +1308,11 @@ export default [
         logoOne: "osuchow.jpg",
         logoTwo: "promyk.jpg",
         scoreOne: "3 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "08-11-2020",
@@ -991,7 +1323,11 @@ export default [
         logoOne: "chlebnia.jpg",
         logoTwo: "zaborow.jpg",
         scoreOne: "4 ",
-        scoreTwo: " 1"
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -1008,7 +1344,11 @@ export default [
         logoOne: "zaborow.jpg",
         logoTwo: "blekitni.jpg",
         scoreOne: "0 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "14-11-2020",
@@ -1019,7 +1359,11 @@ export default [
         logoOne: "promyk.jpg",
         logoTwo: "chlebnia.jpg",
         scoreOne: "6 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "15-11-2020",
@@ -1030,7 +1374,11 @@ export default [
         logoOne: "feliksow.jpg",
         logoTwo: "osuchow.jpg",
         scoreOne: "3 ",
-        scoreTwo: " 0"
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "14-11-2020",
@@ -1041,7 +1389,11 @@ export default [
         logoOne: "partyzant.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "1 ",
-        scoreTwo: " 0"
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "15-11-2020",
@@ -1052,7 +1404,11 @@ export default [
         logoOne: "orzel.jpg",
         logoTwo: "wrzos.jpg",
         scoreOne: "2 ",
-        scoreTwo: " 3"
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "14-11-2020",
@@ -1063,7 +1419,11 @@ export default [
         logoOne: "blonianka.jpg",
         logoTwo: "blizne.jpg",
         scoreOne: "0 ",
-        scoreTwo: " 2"
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "15-11-2020",
@@ -1074,7 +1434,11 @@ export default [
         logoOne: "jozefow.jpg",
         logoTwo: "tajfun.jpg",
         scoreOne: "4 ",
-        scoreTwo: " 0"
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -1083,15 +1447,19 @@ export default [
     date: "27-03-2021",
     matches: [
       {
-        date: "27-03-2021",
-        time: "15:00",
+        date: "27-04-2021",
+        time: "17:45",
         home: null,
         teamOne: "LZS Błękitni Korytów",
         teamTwo: "UKS Tajfun Brochów",
         logoOne: "blekitni.jpg",
         logoTwo: "tajfun.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "27-03-2021",
@@ -1101,83 +1469,111 @@ export default [
         teamTwo: "Klub sportowy Blizne",
         logoOne: "jozefow.jpg",
         logoTwo: "blizne.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "0 ",
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "27-03-2021",
-        time: "",
+        date: "05-05-2021",
+        time: "17:00",
         home: null,
         teamOne: "KS Błonianka II",
         teamTwo: "LKS Wrzos Międzyborów",
         logoOne: "blonianka.jpg",
         logoTwo: "wrzos.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "28-03-2021",
-        time: "11:00",
+        date: "28-04-2021",
+        time: "17:30",
         home: false,
         teamOne: "KS Orzeł Kampinos",
         teamTwo: "LKS Tur Jaktorów",
         logoOne: "orzel.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "27-03-2021",
-        time: "",
+        date: "28-04-2021",
+        time: "18:00",
         home: null,
         teamOne: "KS Partyzant Leszno",
         teamTwo: "LKS Osuchów",
         logoOne: "partyzant.jpg",
         logoTwo: "osuchow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "27-03-2021",
-        time: "13:00",
+        date: "28-04-2021",
+        time: "18:00",
         home: null,
         teamOne: "KS Piast Feliksów",
         teamTwo: "LKS Chlebnia II",
         logoOne: "feliksow.jpg",
         logoTwo: "chlebnia.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "28-03-2021",
-        time: "11:00",
+        date: "28-04-2021",
+        time: "18:00",
         home: null,
         teamOne: "KS Promyk Nowa Sucha",
         teamTwo: "KS Zaborowianka",
         logoOne: "promyk.jpg",
         logoTwo: "zaborow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
   {
     week: 15,
-    date: "02-04-2021",
+    date: "19-05-2021",
     matches: [
       {
-        date: "03-04-2021",
-        time: "11:00",
+        date: "19-05-2021",
+        time: "",
         home: null,
         teamOne: "KS Promyk Nowa Sucha",
         teamTwo: "LZS Błękitni Korytów",
         logoOne: "promyk.jpg",
         logoTwo: "blekitni.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "02-04-2021",
+        date: "19-05-2021",
         time: "",
         home: null,
         teamOne: "KS Zaborowianka",
@@ -1185,40 +1581,56 @@ export default [
         logoOne: "zaborow.jpg",
         logoTwo: "feliksow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "03-04-2021",
-        time: "15:00",
+        date: "19-05-2021",
+        time: "17:00",
         home: null,
         teamOne: "LKS Chlebnia II",
         teamTwo: "KS Partyzant Leszno",
         logoOne: "chlebnia.jpg",
         logoTwo: "partyzant.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "02-04-2021",
-        time: "",
+        date: "19-05-2021",
+        time: "18:00",
         home: null,
         teamOne: "LKS Osuchów",
         teamTwo: "KS Orzeł Kampinos",
         logoOne: "osuchow.jpg",
         logoTwo: "orzel.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "03-04-2021",
-        time: "10:00",
+        date: "19-05-2021",
+        time: "",
         home: true,
         teamOne: "LKS Tur Jaktorów",
         teamTwo: "KS Błonianka II",
         logoOne: "tur.jpg",
         logoTwo: "blonianka.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "02-04-2021",
@@ -1228,19 +1640,27 @@ export default [
         teamTwo: "KP Józefowianka Józefów",
         logoOne: "wrzos.jpg",
         logoTwo: "jozefow.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "3 ",
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "02-04-2021",
-        time: "",
+        date: "18-05-2021",
+        time: "20:00",
         home: null,
         teamOne: "Klub sportowy Blizne",
         teamTwo: "UKS Tajfun Brochów",
         logoOne: "blizne.jpg",
         logoTwo: "tajfun.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -1249,7 +1669,7 @@ export default [
     date: "10-04-2021",
     matches: [
       {
-        date: "10-04-2021",
+        date: "09-06-2021",
         time: "",
         home: null,
         teamOne: "LZS Błękitni Korytów",
@@ -1257,10 +1677,14 @@ export default [
         logoOne: "blekitni.jpg",
         logoTwo: "blizne.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "10-04-2021",
+        date: "09-06-2021",
         time: "",
         home: null,
         teamOne: "UKS Tajfun Brochów",
@@ -1268,7 +1692,11 @@ export default [
         logoOne: "tajfun.jpg",
         logoTwo: "wrzos.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "10-04-2021",
@@ -1278,22 +1706,30 @@ export default [
         teamTwo: "LKS Tur Jaktorów",
         logoOne: "jozefow.jpg",
         logoTwo: "tur.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "0 ",
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "10-04-2021",
-        time: "",
+        date: "09-06-2021",
+        time: "17:00",
         home: null,
         teamOne: "KS Błonianka II",
         teamTwo: "LKS Osuchów",
         logoOne: "blonianka.jpg",
         logoTwo: "osuchow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "10-04-2021",
+        date: "09-06-2021",
         time: "",
         home: null,
         teamOne: "KS Orzeł Kampinos",
@@ -1301,21 +1737,29 @@ export default [
         logoOne: "orzel.jpg",
         logoTwo: "chlebnia.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "10-04-2021",
-        time: "",
+        date: "09-06-2021",
+        time: "18:30",
         home: null,
         teamOne: "KS Partyzant Leszno",
         teamTwo: "KS Zaborowianka",
         logoOne: "partyzant.jpg",
         logoTwo: "zaborow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "10-04-2021",
+        date: "09-06-2021",
         time: "",
         home: null,
         teamOne: "KS Piast Feliksów",
@@ -1323,57 +1767,77 @@ export default [
         logoOne: "feliksow.jpg",
         logoTwo: "promyk.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
   {
     week: 17,
-    date: "17-04-2021",
+    date: "26-06-2021",
     matches: [
       {
-        date: "17-04-2021",
-        time: "",
+        date: "26-06-2021",
+        time: "14:00",
         home: null,
         teamOne: "KS Piast Feliksów",
         teamTwo: "LZS Błękitni Korytów",
         logoOne: "feliksow.jpg",
         logoTwo: "blekitni.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "17-04-2021",
-        time: "",
+        date: "26-06-2021",
+        time: "14:00",
         home: null,
         teamOne: "KS Promyk Nowa Sucha",
         teamTwo: "KS Partyzant Leszno",
         logoOne: "promyk.jpg",
         logoTwo: "partyzant.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "17-04-2021",
-        time: "",
+        date: "26-06-2021",
+        time: "14:00",
         home: null,
         teamOne: "KS Zaborowianka",
         teamTwo: "KS Orzeł Kampinos",
         logoOne: "zaborow.jpg",
         logoTwo: "orzel.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "18-04-2021",
-        time: "11:00",
+        date: "26-06-2021",
+        time: "14:00",
         home: null,
         teamOne: "LKS Chlebnia II",
         teamTwo: "KS Błonianka II",
         logoOne: "chlebnia.jpg",
         logoTwo: "blonianka.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "17-04-2021",
@@ -1383,30 +1847,42 @@ export default [
         teamTwo: "KP Józefowianka Józefów",
         logoOne: "osuchow.jpg",
         logoTwo: "jozefow.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "3 ",
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "17-04-2021",
-        time: "10:00",
+        date: "26-06-2021",
+        time: "14:00",
         home: true,
         teamOne: "LKS Tur Jaktorów",
         teamTwo: "UKS Tajfun Brochów",
         logoOne: "tur.jpg",
         logoTwo: "tajfun.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "17-04-2021",
-        time: "",
+        date: "26-06-2021",
+        time: "14:00",
         home: null,
         teamOne: "LKS Wrzos Międzyborów",
         teamTwo: "Klub sportowy Blizne",
         logoOne: "wrzos.jpg",
         logoTwo: "blizne.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -1416,14 +1892,18 @@ export default [
     matches: [
       {
         date: "24-04-2021",
-        time: "",
+        time: "16:00",
         home: null,
         teamOne: "LZS Błękitni Korytów",
         teamTwo: "LKS Wrzos Międzyborów",
         logoOne: "blekitni.jpg",
         logoTwo: "wrzos.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "2 ",
+        scoreTwo: " 1",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "25-04-2021",
@@ -1433,19 +1913,27 @@ export default [
         teamTwo: "LKS Tur Jaktorów",
         logoOne: "blizne.jpg",
         logoTwo: "tur.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "3 ",
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "24-04-2021",
-        time: "",
+        date: "25-04-2021",
+        time: "16:00",
         home: null,
         teamOne: "UKS Tajfun Brochów",
         teamTwo: "LKS Osuchów",
         logoOne: "tajfun.jpg",
         logoTwo: "osuchow.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "1 ",
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "24-04-2021",
@@ -1455,41 +1943,57 @@ export default [
         teamTwo: "LKS Chlebnia II",
         logoOne: "jozefow.jpg",
         logoTwo: "chlebnia.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "0 ",
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "24-04-2021",
-        time: "",
+        time: "16:00",
         home: null,
         teamOne: "KS Błonianka II",
         teamTwo: "KS Zaborowianka",
         logoOne: "blonianka.jpg",
         logoTwo: "zaborow.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "2 ",
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "24-04-2021",
-        time: "",
+        date: "25-04-2021",
+        time: "11:00",
         home: null,
         teamOne: "KS Orzeł Kampinos",
         teamTwo: "KS Promyk Nowa Sucha",
         logoOne: "orzel.jpg",
         logoTwo: "promyk.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "0 ",
+        scoreTwo: " 2",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "24-04-2021",
-        time: "",
+        time: "17:00",
         home: null,
         teamOne: "KS Partyzant Leszno",
         teamTwo: "KS Piast Feliksów",
         logoOne: "partyzant.jpg",
         logoTwo: "feliksow.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "2 ",
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -1499,36 +2003,48 @@ export default [
     matches: [
       {
         date: "01-05-2021",
-        time: "",
+        time: "11:00",
         home: null,
         teamOne: "KS Partyzant Leszno",
         teamTwo: "LZS Błękitni Korytów",
         logoOne: "partyzant.jpg",
         logoTwo: "blekitni.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "01-05-2021",
-        time: "",
+        time: "11:00",
         home: null,
         teamOne: "KS Piast Feliksów",
         teamTwo: "KS Orzeł Kampinos",
         logoOne: "feliksow.jpg",
         logoTwo: "orzel.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "01-05-2021",
-        time: "",
+        time: "16:00",
         home: null,
         teamOne: "KS Promyk Nowa Sucha",
         teamTwo: "KS Błonianka II",
         logoOne: "promyk.jpg",
         logoTwo: "blonianka.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "01-05-2021",
@@ -1538,8 +2054,12 @@ export default [
         teamTwo: "KP Józefowianka Józefów",
         logoOne: "zaborow.jpg",
         logoTwo: "jozefow.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "3 ",
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "01-05-2021",
@@ -1550,18 +2070,26 @@ export default [
         logoOne: "chlebnia.jpg",
         logoTwo: "tajfun.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "01-05-2021",
-        time: "",
+        date: "22-04-2021",
+        time: "17:30",
         home: null,
         teamOne: "LKS Osuchów",
         teamTwo: "Klub sportowy Blizne",
         logoOne: "osuchow.jpg",
         logoTwo: "blizne.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "1 ",
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "01-05-2021",
@@ -1572,7 +2100,11 @@ export default [
         logoOne: "tur.jpg",
         logoTwo: "wrzos.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -1581,26 +2113,34 @@ export default [
     date: "08-05-2021",
     matches: [
       {
-        date: "08-05-2021",
-        time: "",
+        date: "09-05-2021",
+        time: "16:00",
         home: false,
         teamOne: "LZS Błękitni Korytów",
         teamTwo: "LKS Tur Jaktorów",
         logoOne: "blekitni.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "08-05-2021",
-        time: "",
+        time: "16:00",
         home: null,
         teamOne: "LKS Wrzos Międzyborów",
         teamTwo: "LKS Osuchów",
         logoOne: "wrzos.jpg",
         logoTwo: "osuchow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "09-05-2021",
@@ -1611,18 +2151,26 @@ export default [
         logoOne: "blizne.jpg",
         logoTwo: "chlebnia.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "08-05-2021",
-        time: "",
+        date: "09-05-2021",
+        time: "11:00",
         home: null,
         teamOne: "UKS Tajfun Brochów",
         teamTwo: "KS Zaborowianka",
         logoOne: "tajfun.jpg",
         logoTwo: "zaborow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "08-05-2021",
@@ -1632,30 +2180,42 @@ export default [
         teamTwo: "KS Promyk Nowa Sucha",
         logoOne: "jozefow.jpg",
         logoTwo: "promyk.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "0 ",
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "08-05-2021",
-        time: "",
+        date: "09-05-2021",
+        time: "12:00",
         home: null,
         teamOne: "KS Błonianka II",
         teamTwo: "KS Piast Feliksów",
         logoOne: "blonianka.jpg",
         logoTwo: "feliksow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "08-05-2021",
-        time: "",
+        date: "09-05-2021",
+        time: "11:00",
         home: null,
         teamOne: "KS Orzeł Kampinos",
         teamTwo: "KS Partyzant Leszno",
         logoOne: "orzel.jpg",
         logoTwo: "partyzant.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -1672,18 +2232,26 @@ export default [
         logoOne: "orzel.jpg",
         logoTwo: "blekitni.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "15-05-2021",
-        time: "",
+        time: "17:00",
         home: null,
         teamOne: "KS Partyzant Leszno",
         teamTwo: "KS Błonianka II",
         logoOne: "partyzant.jpg",
         logoTwo: "blonianka.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "15-05-2021",
@@ -1693,8 +2261,12 @@ export default [
         teamTwo: "KP Józefowianka Józefów",
         logoOne: "feliksow.jpg",
         logoTwo: "jozefow.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "3 ",
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "15-05-2021",
@@ -1705,18 +2277,26 @@ export default [
         logoOne: "tajfun.jpg",
         logoTwo: "promyk.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "15-05-2021",
-        time: "",
+        time: "15:00",
         home: null,
         teamOne: "KS Zaborowianka",
         teamTwo: "Klub sportowy Blizne",
         logoOne: "zaborow.jpg",
         logoTwo: "blizne.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "16-05-2021",
@@ -1727,18 +2307,26 @@ export default [
         logoOne: "chlebnia.jpg",
         logoTwo: "wrzos.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "15-05-2021",
-        time: "",
+        time: "11:00",
         home: false,
         teamOne: "LKS Osuchów",
         teamTwo: "LKS Tur Jaktorów",
         logoOne: "osuchow.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -1755,7 +2343,11 @@ export default [
         logoOne: "blekitni.jpg",
         logoTwo: "osuchow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "22-05-2021",
@@ -1766,7 +2358,11 @@ export default [
         logoOne: "tur.jpg",
         logoTwo: "chlebnia.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "22-05-2021",
@@ -1777,7 +2373,11 @@ export default [
         logoOne: "wrzos.jpg",
         logoTwo: "zaborow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "23-05-2021",
@@ -1788,18 +2388,26 @@ export default [
         logoOne: "blizne.jpg",
         logoTwo: "promyk.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "22-05-2021",
-        time: "",
+        date: "23-05-2021",
+        time: "11:00",
         home: null,
         teamOne: "UKS Tajfun Brochów",
         teamTwo: "KS Piast Feliksów",
         logoOne: "tajfun.jpg",
         logoTwo: "feliksow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "22-05-2021",
@@ -1809,19 +2417,27 @@ export default [
         teamTwo: "KS Partyzant Leszno",
         logoOne: "jozefow.jpg",
         logoTwo: "partyzant.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "0 ",
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "22-05-2021",
-        time: "",
+        date: "23-05-2021",
+        time: "12:00",
         home: null,
         teamOne: "KS Błonianka II",
         teamTwo: "KS Orzeł Kampinos",
         logoOne: "blonianka.jpg",
         logoTwo: "orzel.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -1830,15 +2446,19 @@ export default [
     date: "29-05-2021",
     matches: [
       {
-        date: "29-05-2021",
-        time: "",
+        date: "30-05-2021",
+        time: "12:00",
         home: null,
         teamOne: "KS Błonianka II",
         teamTwo: "LZS Błękitni Korytów",
         logoOne: "blonianka.jpg",
         logoTwo: "blekitni.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "29-05-2021",
@@ -1848,8 +2468,12 @@ export default [
         teamTwo: "KP Józefowianka Józefów",
         logoOne: "orzel.jpg",
         logoTwo: "jozefow.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "3 ",
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "29-05-2021",
@@ -1860,7 +2484,11 @@ export default [
         logoOne: "partyzant.jpg",
         logoTwo: "tajfun.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "29-05-2021",
@@ -1871,7 +2499,11 @@ export default [
         logoOne: "feliksow.jpg",
         logoTwo: "blizne.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "29-05-2021",
@@ -1882,7 +2514,11 @@ export default [
         logoOne: "promyk.jpg",
         logoTwo: "wrzos.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "29-05-2021",
@@ -1893,7 +2529,11 @@ export default [
         logoOne: "zaborow.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "30-05-2021",
@@ -1904,7 +2544,11 @@ export default [
         logoOne: "chlebnia.jpg",
         logoTwo: "osuchow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -1921,18 +2565,26 @@ export default [
         logoOne: "blekitni.jpg",
         logoTwo: "chlebnia.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "05-06-2021",
-        time: "",
+        time: "11:00",
         home: null,
         teamOne: "LKS Osuchów",
         teamTwo: "KS Zaborowianka",
         logoOne: "osuchow.jpg",
         logoTwo: "zaborow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "05-06-2021",
@@ -1943,7 +2595,11 @@ export default [
         logoOne: "tur.jpg",
         logoTwo: "promyk.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "05-06-2021",
@@ -1954,7 +2610,11 @@ export default [
         logoOne: "wrzos.jpg",
         logoTwo: "feliksow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "06-06-2021",
@@ -1965,7 +2625,11 @@ export default [
         logoOne: "blizne.jpg",
         logoTwo: "partyzant.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "05-06-2021",
@@ -1976,7 +2640,11 @@ export default [
         logoOne: "tajfun.jpg",
         logoTwo: "orzel.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "05-06-2021",
@@ -1986,8 +2654,12 @@ export default [
         teamTwo: "KS Błonianka II",
         logoOne: "jozefow.jpg",
         logoTwo: "blonianka.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "0 ",
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -2003,19 +2675,27 @@ export default [
         teamTwo: "LZS Błękitni Korytów",
         logoOne: "jozefow.jpg",
         logoTwo: "blekitni.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "0 ",
+        scoreTwo: " 3",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
-        date: "12-06-2021",
-        time: "",
+        date: "13-06-2021",
+        time: "12:00",
         home: null,
         teamOne: "KS Błonianka II",
         teamTwo: "UKS Tajfun Brochów",
         logoOne: "blonianka.jpg",
         logoTwo: "tajfun.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "12-06-2021",
@@ -2026,7 +2706,11 @@ export default [
         logoOne: "orzel.jpg",
         logoTwo: "blizne.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "12-06-2021",
@@ -2037,7 +2721,11 @@ export default [
         logoOne: "partyzant.jpg",
         logoTwo: "wrzos.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "12-06-2021",
@@ -2048,7 +2736,11 @@ export default [
         logoOne: "feliksow.jpg",
         logoTwo: "tur.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "12-06-2021",
@@ -2059,7 +2751,11 @@ export default [
         logoOne: "promyk.jpg",
         logoTwo: "osuchow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "12-06-2021",
@@ -2070,7 +2766,11 @@ export default [
         logoOne: "zaborow.jpg",
         logoTwo: "chlebnia.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   },
@@ -2080,14 +2780,18 @@ export default [
     matches: [
       {
         date: "19-06-2021",
-        time: "14:00",
+        time: "",
         home: null,
         teamOne: "LZS Błękitni Korytów",
         teamTwo: "KS Zaborowianka",
         logoOne: "blekitni.jpg",
         logoTwo: "zaborow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "19-06-2021",
@@ -2098,51 +2802,71 @@ export default [
         logoOne: "chlebnia.jpg",
         logoTwo: "promyk.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "19-06-2021",
-        time: "14:00",
+        time: "11:00",
         home: null,
         teamOne: "LKS Osuchów",
         teamTwo: "KS Piast Feliksów",
         logoOne: "osuchow.jpg",
         logoTwo: "feliksow.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "19-06-2021",
-        time: "14:00",
+        time: "",
         home: false,
         teamOne: "LKS Tur Jaktorów",
         teamTwo: "KS Partyzant Leszno",
         logoOne: "tur.jpg",
         logoTwo: "partyzant.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "19-06-2021",
-        time: "14:00",
+        time: "",
         home: null,
         teamOne: "LKS Wrzos Międzyborów",
         teamTwo: "KS Orzeł Kampinos",
         logoOne: "wrzos.jpg",
         logoTwo: "orzel.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "19-06-2021",
-        time: "14:00",
+        time: "",
         home: null,
         teamOne: "Klub sportowy Blizne",
         teamTwo: "KS Błonianka II",
         logoOne: "blizne.jpg",
         logoTwo: "blonianka.jpg",
         scoreOne: "",
-        scoreTwo: ""
+        scoreTwo: "",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       },
       {
         date: "19-06-2021",
@@ -2152,8 +2876,12 @@ export default [
         teamTwo: "KP Józefowianka Józefów",
         logoOne: "tajfun.jpg",
         logoTwo: "jozefow.jpg",
-        scoreOne: "",
-        scoreTwo: ""
+        scoreOne: "3 ",
+        scoreTwo: " 0",
+        paused: false,
+        pausedTeam: "",
+        pausedLogo: "",
+        canceled: false
       }
     ]
   }
