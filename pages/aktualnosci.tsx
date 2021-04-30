@@ -39,7 +39,7 @@ const News = ({ posts }) => {
 
 export const getServerSideProps: GetServerSideProps = async () => {
   const res = await axios.get(
-    `https://graph.facebook.com/v8.0/lksturjaktorow/posts?limit=16&access_token=${process.env.FB_TOKEN}`
+    `https://graph.facebook.com/v10.0/255922421186609/posts?limit=16&access_token=${process.env.FB_TOKEN}`
   );
 
   const mapped = res.data.data.map((item) => ({
