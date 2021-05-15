@@ -170,6 +170,10 @@ const info = [
   {
     club: "Wrzos Międzyborów",
     logo: "wrzos.jpg"
+  },
+  {
+    club: "KS Ożarowianka",
+    logo: "ozarowianka.jpg"
   }
 ];
 
@@ -244,7 +248,6 @@ Array.from(tables).forEach((table, i) => {
       leftTeam.toLowerCase().includes(el.club.toLowerCase())
     );
 
-    console.log(rightTeam);
     const rightTeamIndex = info.findIndex((el) =>
       rightTeam.toLowerCase().includes(el.club.toLowerCase())
     );
@@ -369,7 +372,7 @@ Array.from(bullets).forEach((bullet, i) => {
       titleOne = `Poprzedni mecz`;
       titleTwo = `Następny mecz`;
 
-      if (matchOneData.scoreOne === "" || matchTwoData.scoreOne === "") {
+      if (matchOneData.scoreOne === "" || matchOneData.scoreTwo === "") {
         scoreOne = `brak danych`;
         isTextOne = true;
       } else {

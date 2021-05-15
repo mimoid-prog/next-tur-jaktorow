@@ -1,68 +1,68 @@
 export default [
   {
     position: "1",
-    team: "LKS Chlebnia",
-    matches: "10",
-    points: "30",
-    w: "10",
-    d: "0",
+    team: "LKS Tur Jaktorów",
+    matches: "3",
+    points: "7",
+    w: "2",
+    d: "1",
     l: "0",
-    goals: "81:7",
-    logo: "chlebnia.jpg"
-  },
-  {
-    position: "2",
-    team: "Wrzos Międzyborów",
-    matches: "10",
-    points: "21",
-    w: "7",
-    d: "0",
-    l: "3",
-    goals: "43:19",
-    logo: "wrzos.jpg"
-  },
-  {
-    position: "3",
-    team: "PKS Mustangi",
-    matches: "10",
-    points: "14",
-    w: "4",
-    d: "2",
-    l: "4",
-    goals: "38:23",
-    logo: "mustangi.jpg"
-  },
-  {
-    position: "4",
-    team: "GKS Pogoń II Grodzisk Maz.",
-    matches: "10",
-    points: "12",
-    w: "4",
-    d: "0",
-    l: "6",
-    goals: "46:44",
-    logo: "pogon-grodzisk.jpg"
-  },
-  {
-    position: "5",
-    team: "Tur Jaktorów",
-    matches: "10",
-    points: "11",
-    w: "3",
-    d: "2",
-    l: "5",
-    goals: "36:37",
+    goals: "15:5",
     logo: "tur.jpg"
   },
   {
+    position: "2",
+    team: "KS Ożarowianka",
+    matches: "4",
+    points: "7",
+    w: "2",
+    d: "1",
+    l: "1",
+    goals: "14:7",
+    logo: "ozarowianka.jpg"
+  },
+  {
+    position: "3",
+    team: "KS Milan Milanówek",
+    matches: "3",
+    points: "6",
+    w: "2",
+    d: "0",
+    l: "1",
+    goals: "16:7",
+    logo: "milan-milanowek.jpg"
+  },
+  {
+    position: "4",
+    team: "LZS Błękitni Korytów",
+    matches: "4",
+    points: "6",
+    w: "2",
+    d: "0",
+    l: "2",
+    goals: "10:9",
+    logo: "blekitni.jpg"
+  },
+  {
+    position: "5",
+    team: "KS Teresin",
+    matches: "2",
+    points: "3",
+    w: "1",
+    d: "0",
+    l: "1",
+    goals: "13:6",
+    logo: "teresin.jpg"
+  },
+  {
     position: "6",
-    team: "GKS Orion-Puls",
-    matches: "10",
+    team: "GLKS Relax Radziwiłłów",
+    matches: "4",
     points: "0",
     w: "0",
     d: "0",
-    l: "10",
-    goals: "4:118",
-    logo: "orion-puls.jpg"
+    l: "4",
+    goals: "2:36",
+    logo: "relax-radziwillow.jpg"
   }
 ];

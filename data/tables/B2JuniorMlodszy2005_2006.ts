@@ -2,38 +2,49 @@ export default [
   {
     position: "1",
     team: "TS Gwardia",
-    matches: "2",
-    points: "6",
-    w: "2",
+    matches: "3",
+    points: "9",
+    w: "3",
     d: "0",
     l: "0",
-    goals: "13:6",
+    goals: "20:6",
     logo: "ts-gwardia.jpg"
   },
   {
     position: "2",
     team: "FC Komorów",
-    matches: "2",
-    points: "3",
-    w: "1",
+    matches: "4",
+    points: "9",
+    w: "3",
     d: "0",
     l: "1",
-    goals: "11:7",
+    goals: "19:8",
     logo: "komorow.jpg"
   },
   {
     position: "3",
-    team: "KS Mszczonowianka",
-    matches: "2",
+    team: "KS Promyk Nowa Sucha",
+    matches: "3",
     points: "3",
     w: "1",
     d: "0",
-    l: "1",
-    goals: "7:6",
-    logo: "mszczonowianka.jpg"
+    l: "2",
+    goals: "10:5",
+    logo: "promyk.jpg"
   },
   {
     position: "4",
+    team: "KS Mszczonowianka",
+    matches: "3",
+    points: "3",
+    w: "1",
+    d: "0",
+    l: "2",
+    goals: "8:11",
+    logo: "mszczonowianka.jpg"
+  },
+  {
+    position: "5",
     team: "LKS Tur Jaktorów",
     matches: "2",
     points: "3",
@@ -44,36 +55,25 @@ export default [
     logo: "tur.jpg"
   },
   {
-    position: "5",
+    position: "6",
     team: "KS Partyzant Leszno",
-    matches: "2",
+    matches: "4",
     points: "3",
     w: "1",
     d: "0",
-    l: "1",
-    goals: "3:4",
+    l: "3",
+    goals: "4:13",
     logo: "partyzant.jpg"
-  },
-  {
-    position: "6",
-    team: "KS Promyk Nowa Sucha",
-    matches: "1",
-    points: "0",
-    w: "0",
-    d: "0",
-    l: "1",
-    goals: "0:1",
-    logo: "promyk.jpg"
   },
   {
     position: "7",
     team: "GKS Naprzód Stare Babice",
-    matches: "1",
-    points: "0",
-    w: "0",
+    matches: "3",
+    points: "3",
+    w: "1",
     d: "0",
-    l: "1",
-    goals: "2:7",
+    l: "2",
+    goals: "5:18",
     logo: "stare-babice.jpg"
   }
 ];
