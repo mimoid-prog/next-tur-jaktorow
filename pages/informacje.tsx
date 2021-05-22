@@ -23,15 +23,19 @@ const Information = () => {
             Kontakt odnośnie strony internetowej:
           </p>
           <p className={styles.infoHeading}>📧 Wyślij mail:</p>
-          <p className={styles.email}>mateusz.szkop99@gmail.com</p>
-          <p className={styles.infoHeading}>🖼️ Strona internetowa:</p>
+          <p className={styles.email}>
+            <a href="mailto:mateusz.szkop99@gmail.com">
+              mateusz.szkop99@gmail.com
+            </a>
+          </p>
+          {/* <p className={styles.infoHeading}>🖼️ Strona internetowa:</p>
           <a
             href="https://mateuszszkop.pl"
             target="_blank"
             className={styles.myPage}
           >
             mateuszszkop.pl
-          </a>
+          </a> */}
           <p className={styles.copyright}>© 2020 Wszelkie prawa zastrzeżone</p>
         </div>
       </div>
