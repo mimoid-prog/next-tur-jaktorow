@@ -4,6 +4,8 @@ import styles from "styles/pages/about.module.scss";
 import Image from "next/image";
 import Head from "components/Head";
 import Buttons from "components/Buttons";
+import logo from "public/images/logos/tur.jpg";
+import photo from "public/images/photos/kadra.jpg";
 
 const About = () => {
   return (
@@ -20,8 +22,9 @@ const About = () => {
               <Image
                 width={200}
                 height={200}
-                src="/images/logos/tur.jpg"
+                src={logo}
                 alt="Tur Jaktorów logo"
+                placeholder="blur"
               />
               <h3>Ludowy Klub Sportowy</h3>
               <h3>Tur Jaktorów</h3>
@@ -60,12 +63,12 @@ const About = () => {
           </div>
           <div className={styles.photoBox}>
             <Image
-              src="/images/photos/kadra.jpg"
+              src={photo}
               className={styles.photo}
               alt="Kibice na stadionie Tura"
               layout="fill"
               objectFit="cover"
-              priority={true}
+              placeholder="blur"
             />
           </div>
         </div>

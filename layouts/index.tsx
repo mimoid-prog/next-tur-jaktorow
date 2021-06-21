@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "styles/layouts/layout.module.scss";
 import Navbar from "components/Navbar";
-import PageUp from "../assets/svgs/pageUp.svg";
+import PageUp from "../public/svgs/pageUp.svg";
 
 const Index = ({ children }) => {
   const [showPageUp, setShowPageUp] = React.useState(false);
@@ -31,6 +31,7 @@ const Index = ({ children }) => {
             className={`${styles.pageUp} ${showPageUp ? styles.active : ""}`}
             onClick={scrollToTop}
           >
+            {/*// @ts-ignore */}
             <PageUp />
           </button>
         </div>
